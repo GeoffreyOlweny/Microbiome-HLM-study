@@ -1,0 +1,492 @@
+ID,Kingdom,Phylum,Class,Order,Family,Genus,Species,mean,Label
+OTU2,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,7338.55555555556,OTU2
+OTU16,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,1426.33333333333,OTU16
+OTU29,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas pasteri,433.555555555556,OTU29
+OTU32,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas pasteri,393.222222222222,OTU32
+OTU22,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus parainfluenzae,384.666666666667,OTU22
+OTU31,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus parainfluenzae,239.666666666667,OTU31
+OTU82,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Aggregatibacter,Aggregatibacter segnis,100.444444444444,OTU82
+OTU253,Bacteria,Patescibacteria,Gracilibacteria,Gracilibacteria bacterium oral taxon 873,Unknown,Unknown,Unknown,93.2222222222222,OTU253
+OTU148,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria elongata,75.1111111111111,OTU148
+OTU264,Bacteria,Patescibacteria,Gracilibacteria,Gracilibacteria bacterium oral taxon 873,Unknown,Unknown,Unknown,79.8888888888889,OTU264
+OTU153,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga leadbetteri,73.2222222222222,OTU153
+OTU74,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,72.2222222222222,OTU74
+OTU182,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria elongata,53.4444444444444,OTU182
+OTU71,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Prevotella sp.,55.1111111111111,OTU71
+OTU213,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Moraxella,Unknown,50.2222222222222,OTU213
+OTU168,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga leadbetteri,49.1111111111111,OTU168
+OTU222,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Moraxella,Unknown,46.7777777777778,OTU222
+OTU239,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,35.5555555555556,OTU239
+OTU267,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga sputigena,22.1111111111111,OTU267
+OTU140,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Aggregatibacter,Aggregatibacter aphrophilus,16.7777777777778,OTU140
+OTU215,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,13.5555555555556,OTU215
+OTU199,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,15.4444444444444,OTU199
+OTU212,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,15.1111111111111,OTU212
+OTU214,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Unknown,Unknown,14.3333333333333,OTU214
+OTU230,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga gingivalis,11.8888888888889,OTU230
+OTU162,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Unknown,10.8888888888889,OTU162
+OTU197,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus influenzae,6.44444444444444,OTU197
+OTU383,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Unknown,Unknown,6.33333333333333,OTU383
+OTU430,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,4.22222222222222,OTU430
+OTU401,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,uncultured Capnocytophaga sp.,5.11111111111111,OTU401
+OTU210,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella aurantiaca,4.33333333333333,OTU210
+OTU66,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Moraxella,Moraxella catarrhalis,4.22222222222222,OTU66
+OTU419,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,uncultured Capnocytophaga sp.,4.11111111111111,OTU419
+OTU90,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Actinobacillus,Unknown,4,OTU90
+OTU525,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,3.88888888888889,OTU525
+OTU216,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus sputorum,3.44444444444444,OTU216
+OTU538,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,3.22222222222222,OTU538
+OTU224,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Streptobacillus,Unknown,2.55555555555556,OTU224
+OTU354,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella multisaccharivorax,2.66666666666667,OTU354
+OTU307,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Lentimicrobiaceae,Lentimicrobium,uncultured Bacteroidetes bacterium,3,OTU307
+OTU266,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria meningitidis,2.88888888888889,OTU266
+OTU517,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,2.77777777777778,OTU517
+OTU336,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Lentimicrobiaceae,Lentimicrobium,uncultured Bacteroidetes bacterium,2.11111111111111,OTU336
+OTU465,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Comamonas,Ottowia sp.,2.11111111111111,OTU465
+OTU421,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Eikenella,Eikenella corrodens,1.88888888888889,OTU421
+OTU458,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Comamonadaceae,Comamonas,Ottowia sp.,1.66666666666667,OTU458
+OTU435,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga sp. oral taxon 863 str. F0517,1.55555555555556,OTU435
+OTU184,Bacteria,Patescibacteria,Gracilibacteria,Absconditabacteriales (SR1),Unknown,Unknown,Unknown,1.44444444444444,OTU184
+OTU395,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Aggregatibacter,Unknown,1.11111111111111,OTU395
+OTU556,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga gingivalis,1,OTU556
+OTU735,Bacteria,Desulfobacterota,Desulfovibrionia,Desulfovibrionales,Desulfomicrobiaceae,Desulfomicrobium,Desulfomicrobium orale,1,OTU735
+OTU463,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Unknown,0.888888888888889,OTU463
+OTU574,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,0.777777777777778,OTU574
+OTU659,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Unknown,Unknown,0.666666666666667,OTU659
+OTU295,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Streptobacillus,Unknown,0.666666666666667,OTU295
+OTU536,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Unknown,Unknown,0.666666666666667,OTU536
+OTU357,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.555555555555556,OTU357
+OTU666,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Rikenellaceae,Rikenellaceae RC9 gut group,Unknown,0.555555555555556,OTU666
+OTU461,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.555555555555556,OTU461
+OTU425,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,uncultured Treponema sp.,0.555555555555556,OTU425
+OTU631,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Rikenellaceae,Rikenellaceae RC9 gut group,Unknown,0.444444444444444,OTU631
+OTU5,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,2022.55555555556,OTU5
+OTU9,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,1740.77777777778,OTU9
+OTU14,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella histicola,1143.77777777778,OTU14
+OTU61,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Unknown,218,OTU61
+OTU80,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella intermedia,158.333333333333,OTU80
+OTU92,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella intermedia,144.888888888889,OTU92
+OTU78,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium nucleatum,113,OTU78
+OTU65,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Megasphaera,Megasphaera micronuciformis,68.2222222222222,OTU65
+OTU68,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Megasphaera,uncultured Megasphaera sp.,67.1111111111111,OTU68
+OTU271,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Unknown,Unknown,22.5555555555556,OTU271
+OTU309,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella dentalis,6.44444444444444,OTU309
+OTU325,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella dentalis,5.55555555555556,OTU325
+OTU406,Bacteria,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmataceae,Mycoplasma,Metamycoplasma faucium,2.55555555555556,OTU406
+OTU446,Bacteria,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmataceae,Mycoplasma,Metamycoplasma faucium,2.11111111111111,OTU446
+OTU203,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella scopos,1,OTU203
+OTU692,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,0.777777777777778,OTU692
+OTU404,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Treponema denticola,0.777777777777778,OTU404
+OTU587,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,0.666666666666667,OTU587
+OTU489,Bacteria,Bacteroidota,Bacteroidia,Sphingobacteriales,Lentimicrobiaceae,Lentimicrobium,Unknown,0.555555555555556,OTU489
+OTU8,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia,3789.33333333333,OTU8
+OTU79,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,219.444444444444,OTU79
+OTU81,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,207.777777777778,OTU81
+OTU217,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] saphenum group,Eubacterium saphenum,144.888888888889,OTU217
+OTU70,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Unknown,140.111111111111,OTU70
+OTU221,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] saphenum group,Eubacterium saphenum,139,OTU221
+OTU109,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Parvimonas,Unknown,51.8888888888889,OTU109
+OTU111,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Parvimonas,Peptostreptococcus sp.,53.2222222222222,OTU111
+OTU103,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Unknown,70.4444444444444,OTU103
+OTU198,Bacteria,Firmicutes,Bacilli,Lactobacillales,Unknown,Unknown,Unknown,37.6666666666667,OTU198
+OTU120,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Unknown,Unknown,40,OTU120
+OTU167,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,24.7777777777778,OTU167
+OTU121,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Unknown,Unknown,38.5555555555556,OTU121
+OTU105,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Unknown,Unknown,Unknown,25.3333333333333,OTU105
+OTU157,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,26.8888888888889,OTU157
+OTU201,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,uncultured Candidatus Saccharibacteria bacterium,Unknown,23.1111111111111,OTU201
+OTU248,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Unknown,26.4444444444444,OTU248
+OTU292,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Unknown,22.7777777777778,OTU292
+OTU54,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Unknown,Unknown,30.4444444444444,OTU54
+OTU209,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas sputigena,17.4444444444444,OTU209
+OTU290,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,uncultured Candidatus Saccharibacteria bacterium,Unknown,19.5555555555556,OTU290
+OTU119,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas gingivalis,15.4444444444444,OTU119
+OTU134,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,Unknown,25.1111111111111,OTU134
+OTU124,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Unknown,15.4444444444444,OTU124
+OTU129,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Candidatus Saccharibacteria bacterium UB2523,Unknown,Unknown,21.2222222222222,OTU129
+OTU127,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Candidatus Saccharibacteria bacterium UB2523,Unknown,Unknown,19.8888888888889,OTU127
+OTU229,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,7.55555555555556,OTU229
+OTU281,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas infelix,6.33333333333333,OTU281
+OTU346,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Olsenella,Olsenella sp. oral taxon 807,14.2222222222222,OTU346
+OTU276,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Dialister,Dialister invisus,12.5555555555556,OTU276
+OTU245,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Unknown,Unknown,13.4444444444444,OTU245
+OTU275,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Shuttleworthia,Shuttleworthia satelles,11,OTU275
+OTU268,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Dialister,Dialister invisus,11.5555555555556,OTU268
+OTU283,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Shuttleworthia,Shuttleworthia satelles,11.7777777777778,OTU283
+OTU244,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Anaeroglobus,Anaeroglobus geminatus,13.1111111111111,OTU244
+OTU384,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Unknown,Unknown,Unknown,11.2222222222222,OTU384
+OTU367,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,Unknown,10.6666666666667,OTU367
+OTU381,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Unknown,Unknown,10.4444444444444,OTU381
+OTU377,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Olsenella,Olsenella sp. oral taxon 807,10.6666666666667,OTU377
+OTU512,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lacticaseibacillus,Unknown,10.1111111111111,OTU512
+OTU25,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Unknown,7.88888888888889,OTU25
+OTU343,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] brachy group,Unknown,9.44444444444444,OTU343
+OTU238,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Peptostreptococcaceae,Filifactor,Filifactor alocis,8.33333333333333,OTU238
+OTU340,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] brachy group,Eubacterium brachy,8.66666666666667,OTU340
+OTU23,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Unknown,7.33333333333333,OTU23
+OTU393,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Unknown,8,OTU393
+OTU389,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,[Eubacterium] nodatum,8.44444444444444,OTU389
+OTU242,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Peptostreptococcaceae,Filifactor,Filifactor alocis,7.44444444444444,OTU242
+OTU318,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Mogibacterium,Unknown,4.11111111111111,OTU318
+OTU396,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,uncultured Candidatus Saccharibacteria bacterium,Unknown,4.66666666666667,OTU396
+OTU348,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Atopobium,Unknown,4.55555555555556,OTU348
+OTU524,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Bulleidia,Bulleidia extructa,2.66666666666667,OTU524
+OTU97,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Unknown,5,OTU97
+OTU98,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Unknown,5.22222222222222,OTU98
+OTU137,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,3.55555555555556,OTU137
+OTU378,Bacteria,Synergistota,Synergistia,Synergistales,Synergistaceae,Fretibacterium,Unknown,3.11111111111111,OTU378
+OTU586,Bacteria,Actinobacteriota,Actinobacteria,Unknown,Unknown,Unknown,Unknown,2,OTU586
+OTU493,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Family XIII AD3011 group,uncultured Eubacteriaceae bacterium,5.11111111111111,OTU493
+OTU320,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Unknown,Unknown,3.22222222222222,OTU320
+OTU412,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas noxia,4.55555555555556,OTU412
+OTU432,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus kitasatonis,1.55555555555556,OTU432
+OTU555,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,2,OTU555
+OTU450,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Olsenella,Olsenella uli,3.22222222222222,OTU450
+OTU428,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Unknown,Unknown,Unknown,4.22222222222222,OTU428
+OTU193,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,3.33333333333333,OTU193
+OTU358,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Tannerella,Tannerella forsythia,2.66666666666667,OTU358
+OTU141,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,3.33333333333333,OTU141
+OTU308,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,3.44444444444444,OTU308
+OTU499,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Family XIII AD3011 group,uncultured Eubacteriaceae bacterium,4.11111111111111,OTU499
+OTU359,Bacteria,Synergistota,Synergistia,Synergistales,Synergistaceae,Fretibacterium,Unknown,2.44444444444444,OTU359
+OTU394,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,Slackia,Slackia exigua,3.22222222222222,OTU394
+OTU469,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,Cryptobacterium,Cryptobacterium curtum,3.22222222222222,OTU469
+OTU191,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,3.22222222222222,OTU191
+OTU397,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Kingella,Kingella oralis,2,OTU397
+OTU327,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,3.33333333333333,OTU327
+OTU287,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,3.66666666666667,OTU287
+OTU681,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Unknown,Unknown,3.66666666666667,OTU681
+OTU485,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Family XIII UCG-001,Eubacterium sp.,2.88888888888889,OTU485
+OTU335,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,Candidatus Saccharimonas,Unknown,1.66666666666667,OTU335
+OTU387,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,3.11111111111111,OTU387
+OTU400,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,Unknown,Unknown,3.22222222222222,OTU400
+OTU453,Bacteria,Actinobacteriota,Actinobacteria,Bifidobacteriales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium dentium,2.11111111111111,OTU453
+OTU491,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Family XIII UCG-001,Eubacterium sp.,2.55555555555556,OTU491
+OTU441,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,Slackia,Slackia exigua,2.88888888888889,OTU441
+OTU496,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,F0332,Unknown,2.77777777777778,OTU496
+OTU392,Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Propionibacterium,Propionibacterium acidifaciens,2.11111111111111,OTU392
+OTU466,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,Cryptobacterium,Cryptobacterium curtum,1.44444444444444,OTU466
+OTU572,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Johnsonella,Unknown,2.33333333333333,OTU572
+OTU529,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,F0332,Unknown,1.77777777777778,OTU529
+OTU452,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,[Eubacterium] infirmum,1.22222222222222,OTU452
+OTU427,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria elongata,1.66666666666667,OTU427
+OTU251,Bacteria,Firmicutes,Bacilli,Staphylococcales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,2.44444444444444,OTU251
+OTU306,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella fusca,1.88888888888889,OTU306
+OTU534,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,2.22222222222222,OTU534
+OTU449,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Unknown,Unknown,Unknown,2.11111111111111,OTU449
+OTU294,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,2.11111111111111,OTU294
+OTU622,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,Unknown,1.44444444444444,OTU622
+OTU322,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,TM7a,candidate division,1.11111111111111,OTU322
+OTU467,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Tannerella,Tannerella forsythia,0.888888888888889,OTU467
+OTU636,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Parvimonas,Unknown,1.66666666666667,OTU636
+OTU511,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,1.44444444444444,OTU511
+OTU528,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Johnsonella,Unknown,1.55555555555556,OTU528
+OTU434,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Pauljensenia hongkongensis,1,OTU434
+OTU720,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] brachy group,Eubacterium sp.,1.44444444444444,OTU720
+OTU539,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Actinomyces timonensis,1.22222222222222,OTU539
+OTU697,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,Unknown,0.777777777777778,OTU697
+OTU324,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,1.22222222222222,OTU324
+OTU415,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia,Unknown,0.888888888888889,OTU415
+OTU551,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,1.33333333333333,OTU551
+OTU779,Bacteria,Firmicutes,Syntrophomonadia,Syntrophomonadales,Syntrophomonadaceae,Pelospora,Syntrophomonadaceae genomosp.,1.33333333333333,OTU779
+OTU258,Bacteria,Firmicutes,Bacilli,Staphylococcales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,1.22222222222222,OTU258
+OTU707,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,Unknown,0.888888888888889,OTU707
+OTU482,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Unknown,Unknown,Unknown,0.666666666666667,OTU482
+OTU488,Bacteria,Firmicutes,Clostridia,Lachnospirales,Defluviitaleaceae,Defluviitaleaceae UCG-011,Unknown,0.555555555555556,OTU488
+OTU760,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] brachy group,Eubacterium sp.,1.11111111111111,OTU760
+OTU342,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,1,OTU342
+OTU598,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Erysipelotrichaceae UCG-006,Unknown,1,OTU598
+OTU634,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Erysipelotrichaceae UCG-006,Unknown,1,OTU634
+OTU669,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Parvimonas,Unknown,1,OTU669
+OTU519,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.333333333333333,OTU519
+OTU382,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,0.888888888888889,OTU382
+OTU321,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,0.777777777777778,OTU321
+OTU613,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas sputigena,0.666666666666667,OTU613
+OTU619,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Peptostreptococcaceae,Peptoanaerobacter,Peptoanaerobacter stomatis,0.666666666666667,OTU619
+OTU751,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Johnsonella,Johnsonella ignava,0.666666666666667,OTU751
+OTU10,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Veillonella parvula,1227.22222222222,OTU10
+OTU30,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Veillonella atypica,387,OTU30
+OTU12,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium periodonticum,1888.55555555556,OTU12
+OTU19,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Veillonella tobetsuensis,773.777777777778,OTU19
+OTU91,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,298.777777777778,OTU91
+OTU94,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,289.555555555556,OTU94
+OTU41,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,237.666666666667,OTU41
+OTU52,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,217.555555555556,OTU52
+OTU125,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Stomatobaculum,Eubacterium sp.,92.8888888888889,OTU125
+OTU115,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Unknown,Unknown,47.4444444444444,OTU115
+OTU155,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella shahii,37.3333333333333,OTU155
+OTU158,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella shahii,35.8888888888889,OTU158
+OTU200,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,25.4444444444444,OTU200
+OTU218,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,22.7777777777778,OTU218
+OTU226,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Unknown,13.3333333333333,OTU226
+OTU183,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Micrococcaceae,Unknown,Unknown,12.4444444444444,OTU183
+OTU256,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,10.3333333333333,OTU256
+OTU240,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Unknown,9.55555555555556,OTU240
+OTU259,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,5.55555555555556,OTU259
+OTU444,Bacteria,Firmicutes,Bacilli,RF39,Unknown,Unknown,Unknown,4.88888888888889,OTU444
+OTU464,Bacteria,Firmicutes,Bacilli,RF39,Unknown,Unknown,Unknown,3.33333333333333,OTU464
+OTU323,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Unknown,Unknown,2.66666666666667,OTU323
+OTU371,Bacteria,Firmicutes,Clostridia,Peptococcales,Peptococcaceae,Peptococcus,Peptococcus-like sp.,2.44444444444444,OTU371
+OTU408,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Amnipila,Unknown,1.77777777777778,OTU408
+OTU402,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Amnipila,Unknown,1.22222222222222,OTU402
+OTU21,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Unknown,0.888888888888889,OTU21
+OTU349,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Veillonella rogosae,0.555555555555556,OTU349
+OTU362,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,0.444444444444444,OTU362
+OTU18,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Microbacteriaceae,Microbacterium,Unknown,0.444444444444444,OTU18
+OTU58,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,152,OTU58
+OTU143,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Oribacterium sinus,33.6666666666667,OTU143
+OTU363,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,1.77777777777778,OTU363
+OTU375,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Ligilactobacillus,Lactobacillus salivarius,3.33333333333333,OTU375
+OTU338,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Treponema denticola,0.555555555555556,OTU338
+OTU498,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,0.333333333333333,OTU498
+OTU180,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,14.8888888888889,OTU180
+OTU138,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas endodontalis,13.7777777777778,OTU138
+OTU128,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Porphyromonas endodontalis,12.2222222222222,OTU128
+OTU234,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella intermedia,3.33333333333333,OTU234
+OTU351,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella multisaccharivorax,2.55555555555556,OTU351
+OTU311,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Limosilactobacillus,Lactobacillus mucosae,1.66666666666667,OTU311
+OTU261,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,1.77777777777778,OTU261
+OTU326,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Treponema sp. I:Q:AT20,0.888888888888889,OTU326
+OTU344,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Unknown,Unknown,Unknown,0.666666666666667,OTU344
+OTU20,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Unknown,Unknown,854.111111111111,OTU20
+OTU102,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,69.6666666666667,OTU102
+OTU101,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella nigrescens,68.6666666666667,OTU101
+OTU132,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella denticola,56.3333333333333,OTU132
+OTU139,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella denticola,53.6666666666667,OTU139
+OTU330,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,6.44444444444444,OTU330
+OTU438,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Unknown,3.66666666666667,OTU438
+OTU508,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,1.77777777777778,OTU508
+OTU455,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,1.55555555555556,OTU455
+OTU399,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella buccae,1.44444444444444,OTU399
+OTU662,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Unknown,Unknown,1.22222222222222,OTU662
+OTU554,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,1.22222222222222,OTU554
+OTU557,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,1,OTU557
+OTU470,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,0.666666666666667,OTU470
+OTU35,Bacteria,Firmicutes,Bacilli,Staphylococcales,Gemellaceae,Gemella,Gemella haemolysans,225.555555555556,OTU35
+OTU39,Bacteria,Firmicutes,Bacilli,Staphylococcales,Gemellaceae,Gemella,Unknown,195.777777777778,OTU39
+OTU104,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Micrococcaceae,Rothia,Rothia dentocariosa,77.7777777777778,OTU104
+OTU76,Bacteria,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Granulicatella,Granulicatella elegans,56.4444444444444,OTU76
+OTU40,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus influenzae,50.5555555555556,OTU40
+OTU45,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Haemophilus influenzae,51.7777777777778,OTU45
+OTU190,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Lautropia,Lautropia mirabilis,19.5555555555556,OTU190
+OTU189,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Lautropia,Lautropia mirabilis,18.1111111111111,OTU189
+OTU171,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Unknown,16.6666666666667,OTU171
+OTU163,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Haemophilus,Unknown,10,OTU163
+OTU304,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Micrococcaceae,Rothia,Unknown,9.22222222222222,OTU304
+OTU233,Bacteria,Firmicutes,Bacilli,Staphylococcales,Gemellaceae,Unknown,Unknown,5.55555555555556,OTU233
+OTU173,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,uncultured Porphyromonas sp.,6,OTU173
+OTU263,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Aggregatibacter,Aggregatibacter aphrophilus,1.44444444444444,OTU263
+OTU269,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Bergeyella,Unknown,1.44444444444444,OTU269
+OTU440,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus salivarius,1.33333333333333,OTU440
+OTU385,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,0.666666666666667,OTU385
+OTU454,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Mesorhizobium,Unknown,0.666666666666667,OTU454
+OTU642,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Weissella,Unknown,0.777777777777778,OTU642
+OTU255,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Bergeyella,Unknown,0.555555555555556,OTU255
+OTU738,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Weissella,Unknown,0.444444444444444,OTU738
+OTU72,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella pallens,153.222222222222,OTU72
+OTU77,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella pallens,144.222222222222,OTU77
+OTU49,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,123.333333333333,OTU49
+OTU57,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella salivae,119.666666666667,OTU57
+OTU64,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,89.7777777777778,OTU64
+OTU69,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,89.8888888888889,OTU69
+OTU51,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,66,OTU51
+OTU107,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella oris,54,OTU107
+OTU100,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella melaninogenica,43.1111111111111,OTU100
+OTU152,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter concisus,32.1111111111111,OTU152
+OTU150,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter concisus,31.2222222222222,OTU150
+OTU149,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,26.1111111111111,OTU149
+OTU118,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,25.1111111111111,OTU118
+OTU211,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,21.4444444444444,OTU211
+OTU169,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,20.3333333333333,OTU169
+OTU194,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Oribacterium asaccharolyticum,19.8888888888889,OTU194
+OTU187,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,14.3333333333333,OTU187
+OTU236,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,18.3333333333333,OTU236
+OTU177,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,19,OTU177
+OTU161,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,16.8888888888889,OTU161
+OTU249,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Catonella,Unknown,16.3333333333333,OTU249
+OTU260,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Catonella,Unknown,12.3333333333333,OTU260
+OTU164,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella oulorum,15,OTU164
+OTU154,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,10.5555555555556,OTU154
+OTU257,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella baroniae,8.88888888888889,OTU257
+OTU247,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Actinomyces pacaensis,6.55555555555556,OTU247
+OTU231,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria sp. oral clone AP060,7,OTU231
+OTU235,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Neisseria oralis,6.66666666666667,OTU235
+OTU219,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella sp.,4.88888888888889,OTU219
+OTU289,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,4.66666666666667,OTU289
+OTU319,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Leptotrichia buccalis,2.88888888888889,OTU319
+OTU313,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,2.88888888888889,OTU313
+OTU369,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,2.11111111111111,OTU369
+OTU331,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella sp. oral clone AA020,1.88888888888889,OTU331
+OTU414,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella sp.,1.22222222222222,OTU414
+OTU456,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,1.22222222222222,OTU456
+OTU411,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella sp.,1,OTU411
+OTU584,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,1.11111111111111,OTU584
+OTU329,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus mutans,0.888888888888889,OTU329
+OTU445,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,0.888888888888889,OTU445
+OTU473,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella enoeca,0.666666666666667,OTU473
+OTU657,Bacteria,Cyanobacteria,Cyanobacteriia,Chloroplast,Unknown,Unknown,Unknown,0.666666666666667,OTU657
+OTU443,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,0.555555555555556,OTU443
+OTU439,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella micans,0.555555555555556,OTU439
+OTU576,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella marshii,0.555555555555556,OTU576
+OTU756,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,0.444444444444444,OTU756
+OTU582,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.444444444444444,OTU582
+OTU28,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Schaalia odontolytica,679.777777777778,OTU28
+OTU88,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,52.5555555555556,OTU88
+OTU205,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,37,OTU205
+OTU122,Bacteria,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Abiotrophia,Abiotrophia defectiva,21.7777777777778,OTU122
+OTU227,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Leptotrichia shahii,16,OTU227
+OTU228,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,7.77777777777778,OTU228
+OTU288,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,5.88888888888889,OTU288
+OTU365,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Leptotrichia hongkongensis,3,OTU365
+OTU272,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Paludibacteraceae,F0058,Bacteroidetes oral,3,OTU272
+OTU273,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,2.77777777777778,OTU273
+OTU334,Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,Unknown,1.66666666666667,OTU334
+OTU518,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Leptotrichia goodfellowii,1.11111111111111,OTU518
+OTU405,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Schaalia odontolytica,0.888888888888889,OTU405
+OTU33,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Unknown,481.888888888889,OTU33
+OTU108,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Schaalia odontolytica,81.4444444444444,OTU108
+OTU126,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,31.4444444444444,OTU126
+OTU208,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Lachnoanaerobaculum,Lachnospiraceae bacterium,22.3333333333333,OTU208
+OTU391,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Oribacterium parvum,2.66666666666667,OTU391
+OTU332,Bacteria,Firmicutes,Bacilli,Staphylococcales,Gemellaceae,Gemella,Unknown,1.22222222222222,OTU332
+OTU490,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga ochracea,0.777777777777778,OTU490
+OTU185,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,Unknown,4,OTU185
+OTU112,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,52.4444444444444,OTU112
+OTU135,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Stomatobaculum,Stomatobaculum longum,28.8888888888889,OTU135
+OTU262,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella baroniae,7.44444444444444,OTU262
+OTU291,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella pleuritidis,7.66666666666667,OTU291
+OTU293,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,6.44444444444444,OTU293
+OTU356,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,2.66666666666667,OTU356
+OTU310,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,uncultured Prevotella sp.,3.11111111111111,OTU310
+OTU176,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,1.33333333333333,OTU176
+OTU192,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,1.44444444444444,OTU192
+OTU53,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Oribacterium sinus,236.444444444444,OTU53
+OTU60,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Alloprevotella rava,141,OTU60
+OTU116,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Unknown,Unknown,74.2222222222222,OTU116
+OTU146,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Lachnoanaerobaculum,Unknown,75,OTU146
+OTU89,Bacteria,Firmicutes,Bacilli,Staphylococcales,Gemellaceae,Gemella,Unknown,30.5555555555556,OTU89
+OTU196,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Unknown,Unknown,25.2222222222222,OTU196
+OTU280,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Johnsonella,Eubacterium sp.,18.2222222222222,OTU280
+OTU270,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Johnsonella,Eubacterium sp.,16.2222222222222,OTU270
+OTU232,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Tannerella,Unknown,10.7777777777778,OTU232
+OTU352,Bacteria,Firmicutes,Clostridia,Peptococcales,Peptococcaceae,Peptococcus,Peptococcus-like sp.,2.44444444444444,OTU352
+OTU409,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella sp. oral clone IK053,0.777777777777778,OTU409
+OTU114,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Micrococcaceae,Rothia,Rothia dentocariosa,62.3333333333333,OTU114
+OTU299,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Unknown,Unknown,2.77777777777778,OTU299
+OTU142,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,Candidatus Saccharimonas,TM7 phylum,25.2222222222222,OTU142
+OTU166,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Unknown,Unknown,Unknown,17.7777777777778,OTU166
+OTU36,Bacteria,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Granulicatella,Unknown,144.666666666667,OTU36
+OTU380,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Bergeyella,Unknown,1.55555555555556,OTU380
+OTU147,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,Candidatus Saccharimonas,TM7 phylum,26.3333333333333,OTU147
+OTU223,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Tannerella,Bacteroides sp.,12.6666666666667,OTU223
+OTU379,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,3.22222222222222,OTU379
+OTU353,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Dialister,Dialister pneumosintes,6.77777777777778,OTU353
+OTU296,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,3.55555555555556,OTU296
+OTU297,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Unknown,Unknown,1.55555555555556,OTU297
+OTU407,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,0.555555555555556,OTU407
+OTU683,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella genomosp.,0.444444444444444,OTU683
+OTU46,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,93.4444444444444,OTU46
+OTU328,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,2.11111111111111,OTU328
+OTU202,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,Unknown,4.66666666666667,OTU202
+OTU59,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Atopobium,Unknown,101.444444444444,OTU59
+OTU83,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Unknown,Unknown,Unknown,42.8888888888889,OTU83
+OTU86,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Unknown,Unknown,Unknown,36.6666666666667,OTU86
+OTU136,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus stomatis,135.777777777778,OTU136
+OTU131,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,Unknown,16.6666666666667,OTU131
+OTU133,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,[Eubacterium] nodatum group,Unknown,15.5555555555556,OTU133
+OTU516,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Oribacterium,Unknown,2,OTU516
+OTU500,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Unknown,Unknown,1,OTU500
+OTU388,Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Unknown,Unknown,1.22222222222222,OTU388
+OTU151,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Unknown,1.11111111111111,OTU151
+OTU106,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,uncultured Leptotrichia sp.,6.77777777777778,OTU106
+OTU372,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella buccae,2.22222222222222,OTU372
+OTU277,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Unknown,1.33333333333333,OTU277
+OTU483,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,0.888888888888889,OTU483
+OTU84,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,74.5555555555556,OTU84
+OTU386,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,uncultured Prevotella sp.,2,OTU386
+OTU567,Bacteria,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter gracilis,0.555555555555556,OTU567
+OTU44,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,TM7x,Candidatus Saccharibacteria,68.6666666666667,OTU44
+OTU165,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Unknown,Unknown,Unknown,13.7777777777778,OTU165
+OTU175,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Unknown,Unknown,Unknown,12.5555555555556,OTU175
+OTU537,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.444444444444444,OTU537
+OTU123,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Unknown,Unknown,Unknown,6.44444444444444,OTU123
+OTU564,Bacteria,Firmicutes,Clostridia,Clostridia vadinBB60 group,Clostridiales bacterium feline oral taxon 148,Unknown,Unknown,0.333333333333333,OTU564
+OTU241,Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,Unknown,9.11111111111111,OTU241
+OTU312,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,3.33333333333333,OTU312
+OTU160,Bacteria,Firmicutes,Clostridia,Clostridia UCG-014,Clostridiales bacterium oral taxon 075,Unknown,Unknown,20.3333333333333,OTU160
+OTU305,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Unknown,uncultured Prevotella sp.,4.88888888888889,OTU305
+OTU99,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,11.1111111111111,OTU99
+OTU285,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,2.55555555555556,OTU285
+OTU347,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Dialister,Dialister pneumosintes,6.66666666666667,OTU347
+OTU531,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Bulleidia,Bulleidia extructa,2.11111111111111,OTU531
+OTU316,Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,Corynebacterium durum,2.66666666666667,OTU316
+OTU420,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella oulorum,1.44444444444444,OTU420
+OTU178,Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Pseudopropionibacterium,Unknown,48.4444444444444,OTU178
+OTU341,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Unknown,12,OTU341
+OTU250,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Butyrivibrio,Eubacterium sp.,4.66666666666667,OTU250
+OTU540,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Actinomyces dentalis,0.666666666666667,OTU540
+OTU628,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Unknown,0.666666666666667,OTU628
+OTU570,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Unknown,0.888888888888889,OTU570
+OTU773,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Actinomyces dentalis,0.333333333333333,OTU773
+OTU479,Bacteria,Actinobacteriota,Actinobacteria,Bifidobacteriales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium dentium,0.555555555555556,OTU479
+OTU300,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Anaerovoracaceae,Mogibacterium,Unknown,3.66666666666667,OTU300
+OTU505,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Unknown,Unknown,2.22222222222222,OTU505
+OTU423,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas massiliensis,0.777777777777778,OTU423
+OTU510,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,0.666666666666667,OTU510
+OTU301,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Unknown,4.66666666666667,OTU301
+OTU207,Bacteria,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Abiotrophia,Abiotrophia defectiva,8,OTU207
+OTU113,Bacteria,Patescibacteria,Gracilibacteria,Absconditabacteriales (SR1),Unknown,Unknown,Unknown,7.33333333333333,OTU113
+OTU117,Bacteria,Patescibacteria,Gracilibacteria,Absconditabacteriales (SR1),SR1 bacterium oral taxon 875,Unknown,Unknown,7.44444444444444,OTU117
+OTU220,Bacteria,Patescibacteria,Gracilibacteria,Absconditabacteriales (SR1),Unknown,Unknown,Unknown,2,OTU220
+OTU237,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,1.88888888888889,OTU237
+OTU492,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Catonella,Catonella sp. oral clone FL037,0.333333333333333,OTU492
+OTU243,Bacteria,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Butyrivibrio,Eubacterium sp.,5,OTU243
+OTU170,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella nanceiensis,7.22222222222222,OTU170
+OTU345,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,Unknown,Unknown,3.11111111111111,OTU345
+OTU607,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Murdochiella,uncultured Peptostreptococcaceae bacterium,1.88888888888889,OTU607
+OTU543,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Unknown,Unknown,0.888888888888889,OTU543
+OTU547,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Family XI,Murdochiella,uncultured Peptostreptococcaceae bacterium,0.555555555555556,OTU547
+OTU474,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Unknown,Unknown,0.444444444444444,OTU474
+OTU542,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Unknown,Unknown,0.444444444444444,OTU542
+OTU674,Bacteria,Proteobacteria,Unknown,Unknown,Unknown,Unknown,Unknown,0.222222222222222,OTU674
+OTU643,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Unknown,0.111111111111111,OTU643
+OTU533,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,Xanthobacteraceae,Bradyrhizobium,Unknown,0.111111111111111,OTU533
+OTU716,Bacteria,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Eggerthia,Eggerthia catenaformis,0.111111111111111,OTU716
+OTU3,Bacteria,Actinobacteriota,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium tuberculosis,0.111111111111111,OTU3
+OTU422,Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Cutibacterium,Cutibacterium acnes,0.111111111111111,OTU422
+OTU696,Bacteria,Synergistota,Synergistia,Synergistales,Synergistaceae,Pyramidobacter,Pyramidobacter piscolens,0.111111111111111,OTU696
+OTU509,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Unknown,Unknown,0.111111111111111,OTU509
+OTU265,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium sp. Marseille-P2749,1.11111111111111,OTU265
+OTU548,Bacteria,Actinobacteriota,Actinobacteria,Bifidobacteriales,Bifidobacteriaceae,Parascardovia,Parascardovia denticolens,0.555555555555556,OTU548
+OTU361,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Unknown,0.444444444444444,OTU361
+OTU591,Bacteria,Proteobacteria,Alphaproteobacteria,Unknown,Unknown,Unknown,Unknown,0.333333333333333,OTU591
+OTU478,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Selenomonadaceae,Selenomonas,Selenomonas genomosp.,0.333333333333333,OTU478
+OTU424,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,Leptotrichia,Unknown,0.555555555555556,OTU424
+OTU437,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus delbrueckii,2.44444444444444,OTU437
+OTU195,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,5.44444444444444,OTU195
+OTU558,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Unknown,0.666666666666667,OTU558
+OTU350,Bacteria,Spirochaetota,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,uncultured Treponema sp.,0.444444444444444,OTU350
+OTU337,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Actinomyces graevenitzii,0.444444444444444,OTU337
+OTU339,Bacteria,Bacteroidota,Bacteroidia,Flavobacteriales,Weeksellaceae,Bergeyella,Flavobacteriaceae bacterium,0.222222222222222,OTU339
+OTU1,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,7596.33333333333,OTU1
+OTU11,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,2327.44444444444,OTU11
+OTU6,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,2245.11111111111,OTU6
+OTU7,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia,3799.55555555556,OTU7
+OTU13,Bacteria,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium periodonticum,1902.33333333333,OTU13
+OTU17,Bacteria,Actinobacteriota,Actinobacteria,Micrococcales,Micrococcaceae,Rothia,Rothia mucilaginosa,915.222222222222,OTU17
+OTU37,Bacteria,Proteobacteria,Gammaproteobacteria,Burkholderiales,Neisseriaceae,Neisseria,Unknown,806.222222222222,OTU37
+OTU15,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella_7,Prevotella melaninogenica,855.555555555556,OTU15
+OTU24,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Unknown,760.666666666667,OTU24
+OTU34,Bacteria,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Granulicatella,Unknown,161.111111111111,OTU34
+OTU55,Bacteria,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Atopobium,Unknown,118.555555555556,OTU55
+OTU130,Bacteria,Firmicutes,Clostridia,Peptostreptococcales-Tissierellales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus stomatis,145,OTU130
+OTU43,Bacteria,Patescibacteria,Saccharimonadia,Saccharimonadales,Saccharimonadaceae,TM7x,Unknown,73.2222222222222,OTU43
+OTU181,Bacteria,Actinobacteriota,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Pseudopropionibacterium,Unknown,52.6666666666667,OTU181
+OTU179,Bacteria,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Actinomyces,Unknown,15.3333333333333,OTU179
+OTU93,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Alloprevotella,Unknown,18.7777777777778,OTU93
+OTU172,Bacteria,Bacteroidota,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella nanceiensis,8.33333333333333,OTU172
+OTU174,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Pasteurellaceae,Aggregatibacter,Aggregatibacter aphrophilus,6.44444444444444,OTU174
+OTU225,Bacteria,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus salivarius,8.22222222222222,OTU225
+OTU186,Bacteria,Firmicutes,Negativicutes,Veillonellales-Selenomonadales,Veillonellaceae,Veillonella,Unknown,5.77777777777778,OTU186
+OTU364,Bacteria,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Ligilactobacillus,Lactobacillus salivarius,3,OTU364
+OTU376,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,0.777777777777778,OTU376

@@ -1,0 +1,4 @@
+"",".y.","p","p.adj","p.format","p.signif","method"
+"1","Shannon",1.73769590749112e-10,1.7e-10,"1.7e-10","****","Kruskal-Wallis"
+"2","Richness",5.407374455038e-10,5.4e-10,"5.4e-10","****","Kruskal-Wallis"
+"3","Pielou_evenness",0.0131948151611597,0.013,"0.013","*","Kruskal-Wallis"
