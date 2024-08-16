@@ -1,0 +1,836 @@
+	Kingdom	Phylum	Class	Order	Family	Genus	Species
+OTU120	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	?	?
+OTU524	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Bulleidia	Bulleidia extructa
+OTU598	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Erysipelotrichaceae UCG-006	?
+OTU662	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	?	?
+OTU725	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	Eggerthia	Eggerthia catenaformis
+OTU460	Bacteria	Firmicutes	Bacilli	Acholeplasmatales	Acholeplasmataceae	Acholeplasma	Mycoplasmataceae genomosp.
+OTU736	Bacteria	Firmicutes	Bacilli	Acholeplasmatales	Acholeplasmataceae	Acholeplasma	?
+OTU444	Bacteria	Firmicutes	Bacilli	RF39	?	?	?
+OTU653	Bacteria	Firmicutes	Bacilli	RF39	Firmicutes oral clone FM046	?	?
+OTU564	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	Clostridiales bacterium feline oral taxon 148	?	?
+OTU277	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	?
+OTU13	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium periodonticum
+OTU78	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium nucleatum
+OTU224	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Streptobacillus	?
+OTU204	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	?	?
+OTU188	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	?	?
+OTU526	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU106	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	uncultured Leptotrichia sp.
+OTU514	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia sp. oral taxon 847
+OTU455	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU64	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU46	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU237	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU20	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	?	?
+OTU637	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU472	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia goodfellowii
+OTU694	Bacteria	Firmicutes	Clostridia	Oscillospirales	Oscillospiraceae	?	?
+OTU488	Bacteria	Firmicutes	Clostridia	Lachnospirales	Defluviitaleaceae	Defluviitaleaceae UCG-011	?
+OTU707	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	?
+OTU691	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Howardella	Eubacterium sp.
+OTU260	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Catonella	?
+OTU477	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Catonella	Catonella sp. oral clone FL037
+OTU196	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	?	?
+OTU250	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Butyrivibrio	Eubacterium sp.
+OTU275	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Shuttleworthia	Shuttleworthia satelles
+OTU53	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	Oribacterium sinus
+OTU639	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	?	?
+OTU116	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	?	?
+OTU280	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Johnsonella	Eubacterium sp.
+OTU528	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Johnsonella	?
+OTU160	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	Clostridiales bacterium oral taxon 075	?	?
+OTU428	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU165	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU198	Bacteria	Firmicutes	Bacilli	Lactobacillales	?	?	?
+OTU376	?	?	?	?	?	?	?
+OTU801	Bacteria	Verrucomicrobiota	Chlamydiae	Chlamydiales	Simkaniaceae	?	?
+OTU555	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU427	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria elongata
+OTU536	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	?	?
+OTU554	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU37	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU214	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	?	?
+OTU231	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria sp. oral clone AP060
+OTU16	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU363	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU471	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU266	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria meningitidis
+OTU579	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Alysiella	?
+OTU416	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU182	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria elongata
+OTU811	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Propionivibrio	Propionibacter sp.
+OTU458	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Comamonas	Ottowia sp.
+OTU705	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	?	?
+OTU190	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Lautropia	Lautropia mirabilis
+OTU410	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	?
+OTU279	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Methyloversatilis	Methyloversatilis universalis
+OTU8	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas maltophilia
+OTU737	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas maltophilia
+OTU66	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella	Moraxella catarrhalis
+OTU573	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Faucicola	Faucicola mancuniensis
+OTU222	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella	?
+OTU302	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	?
+OTU602	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	Pseudomonas stutzeri
+OTU163	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	?
+OTU197	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus influenzae
+OTU31	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus parainfluenzae
+OTU40	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus influenzae
+OTU263	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	Aggregatibacter aphrophilus
+OTU174	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	Aggregatibacter aphrophilus
+OTU395	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	?
+OTU90	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Actinobacillus	?
+OTU216	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus sputorum
+OTU438	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	?
+OTU82	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	Aggregatibacter segnis
+OTU286	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Morganellaceae	Providencia	Providencia sp.
+OTU87	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia-Shigella	Escherichia coli
+OTU159	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	?
+OTU284	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Kosakonia	?
+OTU532	Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Cardiobacterium	Cardiobacterium hominis
+OTU713	Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Cardiobacterium	Cardiobacterium valvarum
+OTU417	Bacteria	Proteobacteria	Alphaproteobacteria	?	uncultured Rhodospirillales bacterium	?	?
+OTU719	Bacteria	Proteobacteria	Alphaproteobacteria	?	?	?	?
+OTU734	?	?	?	?	?	?	?
+OTU787	Eukaryota	Basidiomycota	Tremellomycetes	Tremellales	Bulleribasidiaceae	Vishniacozyma	?
+OTU829	Eukaryota	Basidiomycota	Tremellomycetes	Tremellales	Bulleribasidiaceae	Dioszegia	?
+OTU433	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Mesorhizobium	?
+OTU54	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	?	?
+OTU23	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	?
+OTU98	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	?
+OTU442	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	?
+OTU643	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Bradyrhizobium	?
+OTU766	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Pleomorphomonadaceae	?	?
+OTU103	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	?
+OTU50	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	?	?
+OTU591	Bacteria	Proteobacteria	Alphaproteobacteria	?	?	?	?
+OTU827	?	?	?	?	?	?	?
+OTU287	?	?	?	?	?	?	?
+OTU781	?	?	?	?	?	?	?
+OTU633	?	?	?	?	?	?	?
+OTU832	?	?	?	?	?	?	?
+OTU774	?	?	?	?	?	?	?
+OTU715	?	?	?	?	?	?	?
+OTU385	?	?	?	?	?	?	?
+OTU73	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Edaphobaculum	?
+OTU623	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	?	?
+OTU336	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	uncultured Bacteroidetes bacterium
+OTU632	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	Bacteroidales genomosp.
+OTU489	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	?
+OTU535	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	F082	?	?
+OTU690	Bacteria	Bacteroidota	Bacteroidia	?	?	?	?
+OTU223	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	Bacteroides sp.
+OTU467	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	Tannerella forsythia
+OTU638	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidales Incertae Sedis	Phocaeicola	Phocaeicola abscessus
+OTU94	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU58	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU41	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU727	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU74	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU176	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU77	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella pallens
+OTU101	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella nigrescens
+OTU126	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU80	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella intermedia
+OTU687	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU170	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella nanceiensis
+OTU370	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU342	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU372	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella buccae
+OTU409	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. oral clone IK053
+OTU312	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU155	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella shahii
+OTU325	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella dentalis
+OTU212	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU625	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU331	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella sp. oral clone AA020
+OTU445	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU218	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU257	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella baroniae
+OTU430	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU202	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU211	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU293	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU601	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU289	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU132	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella denticola
+OTU330	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU5	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU69	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU100	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella melaninogenica
+OTU112	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU49	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU161	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU305	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	uncultured Prevotella sp.
+OTU443	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU456	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU692	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU351	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella multisaccharivorax
+OTU648	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella marshii
+OTU557	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU700	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU706	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella oralis
+OTU733	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	uncultured Prevotella sp.
+OTU301	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU545	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU695	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Prevotella zoogleoformans
+OTU523	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	?	?
+OTU124	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	?
+OTU173	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	uncultured Porphyromonas sp.
+OTU29	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas pasteri
+OTU272	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Paludibacteraceae	F0058	Bacteroidetes oral
+OTU128	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas endodontalis
+OTU708	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas asaccharolytica
+OTU590	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Marinifilaceae	Odoribacter	Bacteroidetes sp.
+OTU615	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	?
+OTU723	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	Bacteroidales genomosp.
+OTU728	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	Bacteroidales oral
+OTU666	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	?
+OTU754	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	p-2534-18B5 gut group	?	?
+OTU580	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	F082	uncultured Bacteroidetes bacterium	?
+OTU255	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	?
+OTU339	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	Flavobacteriaceae bacterium
+OTU380	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	?
+OTU563	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	?
+OTU267	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga sputigena
+OTU153	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga leadbetteri
+OTU401	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	uncultured Capnocytophaga sp.
+OTU629	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU215	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU538	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU556	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga gingivalis
+OTU129	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Candidatus Saccharibacteria bacterium UB2523	?	?
+OTU147	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	TM7 phylum
+OTU429	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	?
+OTU374	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	?
+OTU569	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	TM7 phylum
+OTU123	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	?	?	?
+OTU462	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	uncultured Candidatus Saccharibacteria bacterium	?	?
+OTU568	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	?	?	?
+OTU345	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	?	?
+OTU201	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	uncultured Candidatus Saccharibacteria bacterium	?
+OTU396	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	uncultured Candidatus Saccharibacteria bacterium	?
+OTU400	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	?	?
+OTU451	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	?	?
+OTU457	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	TM7a	?
+OTU515	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	TM7x	?
+OTU322	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	TM7a	candidate division
+OTU44	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	TM7x	Candidatus Saccharibacteria
+OTU117	Bacteria	Patescibacteria	Gracilibacteria	Absconditabacteriales (SR1)	SR1 bacterium oral taxon 875	?	?
+OTU184	Bacteria	Patescibacteria	Gracilibacteria	Absconditabacteriales (SR1)	?	?	?
+OTU406	Bacteria	Firmicutes	Bacilli	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Metamycoplasma faucium
+OTU303	Bacteria	Cyanobacteria	Cyanobacteriia	Chloroplast	?	?	?
+OTU611	Bacteria	Cyanobacteria	Cyanobacteriia	Chloroplast	Triticum aestivum (bread wheat)	?	?
+OTU253	Bacteria	Patescibacteria	Gracilibacteria	Gracilibacteria bacterium oral taxon 873	?	?	?
+OTU674	Bacteria	Proteobacteria	?	?	?	?	?
+OTU767	Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Mitochondria	?	?
+OTU454	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Mesorhizobium	?
+OTU533	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Bradyrhizobium	?
+OTU712	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Pleomorphomonadaceae	?	?
+OTU70	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium	?
+OTU25	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium	?
+OTU97	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	?
+OTU468	Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	Methylobacterium sp.
+OTU48	Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Bosea	?
+OTU134	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	?
+OTU67	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	?
+OTU448	Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	?
+OTU426	Bacteria	Proteobacteria	Alphaproteobacteria	?	uncultured Rhodospirillales bacterium	?	?
+OTU776	Bacteria	Proteobacteria	Alphaproteobacteria	Reyranellales	Reyranellaceae	Reyranella	Reyranella sp.
+OTU746	Bacteria	Firmicutes	Clostridia	Eubacteriales	Eubacteriaceae	Pseudoramibacter	?
+OTU378	Bacteria	Synergistota	Synergistia	Synergistales	Synergistaceae	Fretibacterium	?
+OTU500	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	?	?
+OTU144	Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	Paenibacillus	Paenibacillus pasadenensis
+OTU27	Bacteria	Firmicutes	Bacilli	Brevibacillales	Brevibacillaceae	Brevibacillus	?
+OTU47	Bacteria	Firmicutes	Bacilli	Brevibacillales	Brevibacillaceae	Brevibacillus	?
+OTU299	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	?	?
+OTU487	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU541	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pyogenes
+OTU24	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU79	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU440	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus salivarius
+OTU9	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU2	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU225	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus salivarius
+OTU329	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus mutans
+OTU505	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	?	?
+OTU543	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	?	?
+OTU34	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	?
+OTU258	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus	Staphylococcus aureus
+OTU252	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Dolosigranulum	?
+OTU35	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	Gemella haemolysans
+OTU233	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	?	?
+OTU122	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Abiotrophia	Abiotrophia defectiva
+OTU642	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Weissella	?
+OTU364	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Lactobacillus salivarius
+OTU432	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus kitasatonis
+OTU474	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	?	?
+OTU311	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Lactobacillus mucosae
+OTU703	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Lactobacillus fermentum
+OTU785	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	Lactobacillus gastricus
+OTU634	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Erysipelotrichaceae UCG-006	?
+OTU495	Bacteria	Firmicutes	Bacilli	Acholeplasmatales	Acholeplasmataceae	Acholeplasma	Mycoplasmataceae genomosp.
+OTU763	Bacteria	Firmicutes	Bacilli	Acholeplasmatales	Acholeplasmataceae	Acholeplasma	?
+OTU121	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	?	?
+OTU531	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelotrichaceae	Bulleidia	Bulleidia extructa
+OTU716	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	Eggerthia	Eggerthia catenaformis
+OTU659	Bacteria	Firmicutes	Bacilli	Erysipelotrichales	Erysipelatoclostridiaceae	?	?
+OTU464	Bacteria	Firmicutes	Bacilli	RF39	?	?	?
+OTU577	Bacteria	Firmicutes	Bacilli	RF39	Firmicutes oral clone FM046	?	?
+OTU388	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	?	?
+OTU511	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU308	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU673	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Veillonellaceae bacterium
+OTU157	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU191	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU167	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU169	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU551	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU613	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas sputigena
+OTU403	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU65	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	Megasphaera micronuciformis
+OTU268	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	Dialister invisus
+OTU347	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	Dialister pneumosintes
+OTU186	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU259	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU10	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	Veillonella parvula
+OTU137	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU183	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	?	?
+OTU244	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Anaeroglobus	Anaeroglobus geminatus
+OTU352	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	Peptococcus-like sp.
+OTU111	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	Peptostreptococcus sp.
+OTU636	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	?
+OTU605	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	W5053	Peptostreptococcaceae bacterium
+OTU607	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Murdochiella	uncultured Peptostreptococcaceae bacterium
+OTU701	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	?	?
+OTU619	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Peptoanaerobacter	Peptoanaerobacter stomatis
+OTU721	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	[Eubacterium] yurii group	?
+OTU242	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Filifactor	Filifactor alocis
+OTU130	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus stomatis
+OTU491	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII UCG-001	Eubacterium sp.
+OTU340	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	Eubacterium brachy
+OTU499	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	uncultured Eubacteriaceae bacterium
+OTU133	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU318	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Mogibacterium	?
+OTU720	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	Eubacterium sp.
+OTU389	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	[Eubacterium] nodatum
+OTU697	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU221	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] saphenum group	Eubacterium saphenum
+OTU402	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Amnipila	?
+OTU381	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	?	?
+OTU681	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	?	?
+OTU651	Bacteria	Firmicutes	Clostridia	Oscillospirales	[Eubacterium] coprostanoligenes group	?	?
+OTU175	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU449	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU166	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU436	Bacteria	Firmicutes	Clostridia	Clostridia UCG-014	?	?	?
+OTU368	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	?
+OTU265	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium sp. Marseille-P2749
+OTU12	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	Fusobacterium periodonticum
+OTU61	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	?
+OTU110	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	?	?
+OTU494	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	?	?	?
+OTU285	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU583	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU84	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU313	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU369	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU424	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU501	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia trevisanii
+OTU365	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia hongkongensis
+OTU227	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia shahii
+OTU187	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU51	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU319	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia buccalis
+OTU360	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU295	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Streptobacillus	?
+OTU206	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	?	?
+OTU518	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	Leptotrichia goodfellowii
+OTU484	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU99	Bacteria	Fusobacteriota	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	?
+OTU246	Bacteria	Firmicutes	Bacilli	Lactobacillales	?	?	?
+OTU685	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	Clostridiales bacterium canine oral taxon 260	?	?
+OTU561	Bacteria	Firmicutes	Clostridia	Clostridia vadinBB60 group	Clostridiales bacterium feline oral taxon 148	?	?
+OTU688	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Howardella	?
+OTU249	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Catonella	?
+OTU492	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Catonella	Catonella sp. oral clone FL037
+OTU283	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Shuttleworthia	Shuttleworthia satelles
+OTU622	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Roseburia	?
+OTU243	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Butyrivibrio	Eubacterium sp.
+OTU125	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Stomatobaculum	Eubacterium sp.
+OTU135	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Stomatobaculum	Stomatobaculum longum
+OTU745	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Moryella	Moryella indoligenes
+OTU115	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	?	?
+OTU820	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	Eubacterium sp.
+OTU208	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	Lachnospiraceae bacterium
+OTU146	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Lachnoanaerobaculum	?
+OTU572	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Johnsonella	?
+OTU751	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Johnsonella	Johnsonella ignava
+OTU270	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Johnsonella	Eubacterium sp.
+OTU560	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Butyrivibrio	Firmicutes oral
+OTU393	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	?
+OTU194	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	Oribacterium asaccharolyticum
+OTU143	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	Oribacterium sinus
+OTU391	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	Oribacterium parvum
+OTU516	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	Oribacterium	?
+OTU486	Bacteria	Firmicutes	Clostridia	Lachnospirales	Defluviitaleaceae	Defluviitaleaceae UCG-011	?
+OTU768	Eukaryota	Basidiomycota	Tremellomycetes	Tremellales	Bulleribasidiaceae	Vishniacozyma	?
+OTU95	Bacteria	Actinobacteriota	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Sphaerimonospora	Sphaerimonospora mesophila
+OTU38	Bacteria	Actinobacteriota	Actinobacteria	Streptomycetales	Streptomycetaceae	Streptomyces	?
+OTU21	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Microbacteriaceae	Microbacterium	?
+OTU640	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Mobiluncus	Mobiluncus curtisii
+OTU453	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium dentium
+OTU544	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Alloscardovia	Alloscardovia omnicolens
+OTU548	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Parascardovia	Parascardovia denticolens
+OTU586	Bacteria	Actinobacteriota	Actinobacteria	?	?	?	?
+OTU83	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	?	?	?
+OTU28	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Schaalia odontolytica
+OTU405	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Schaalia odontolytica
+OTU539	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces timonensis
+OTU540	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces dentalis
+OTU529	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	F0332	?
+OTU608	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	F0332	Actinobaculum sp.
+OTU709	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	?	?
+OTU241	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	?
+OTU316	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium durum
+OTU588	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	?
+OTU614	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium accolens
+OTU3	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium tuberculosis
+OTU422	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	Cutibacterium acnes
+OTU562	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium australiense
+OTU178	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium	?
+OTU606	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium	?
+OTU17	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia mucilaginosa
+OTU114	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia dentocariosa
+OTU304	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	?
+OTU729	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	?	?
+OTU341	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	?
+OTU481	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	?	?
+OTU559	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Cellulomonadaceae	Tropheryma	Tropheryma whipplei
+OTU699	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella scatoligenes
+OTU346	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella sp. oral taxon 807
+OTU59	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	?
+OTU348	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	?
+OTU575	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella genomosp.
+OTU394	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Slackia	Slackia exigua
+OTU682	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	DNF00809	Coriobacteriaceae bacterium
+OTU466	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Cryptobacterium	Cryptobacterium curtum
+OTU7	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	Stenotrophomonas maltophilia
+OTU151	Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	?
+OTU189	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Lautropia	Lautropia mirabilis
+OTU11	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU508	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	?
+OTU383	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	?	?
+OTU148	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria elongata
+OTU235	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Neisseria	Neisseria oralis
+OTU421	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Eikenella	Eikenella corrodens
+OTU397	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	Kingella	Kingella oralis
+OTU616	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Neisseriaceae	?	?
+OTU415	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Burkholderiaceae	Ralstonia	?
+OTU465	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Comamonas	Ottowia sp.
+OTU550	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Aquabacterium	?
+OTU603	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium	?
+OTU282	Bacteria	Proteobacteria	Gammaproteobacteria	Burkholderiales	Rhodocyclaceae	Methyloversatilis	Methyloversatilis universalis
+OTU624	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	?
+OTU604	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Faucicola	Faucicola mancuniensis
+OTU62	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella	?
+OTU213	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Moraxella	?
+OTU22	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus parainfluenzae
+OTU45	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Haemophilus	Haemophilus influenzae
+OTU722	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	Aggregatibacter actinomycetemcomitans
+OTU140	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Pasteurellaceae	Aggregatibacter	Aggregatibacter aphrophilus
+OTU278	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Morganellaceae	Providencia	?
+OTU85	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Escherichia-Shigella	Escherichia coli
+OTU156	Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacterales	Enterobacteriaceae	Enterobacter	?
+OTU502	Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Cardiobacterium	Cardiobacterium hominis
+OTU315	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	?
+OTU652	Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	?
+OTU620	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Helicobacteraceae	Helicobacter	?
+OTU323	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	?	?
+OTU567	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter gracilis
+OTU152	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter concisus
+OTU226	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	?
+OTU775	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Helicobacteraceae	Wolinella	Wolinella succinogenes
+OTU418	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	?	?	?
+OTU519	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU553	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU641	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. IV:17D:D31
+OTU672	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema lecithinolyticum
+OTU475	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. I:Q:AT20
+OTU711	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU645	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU261	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU609	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. OMZ 838
+OTU675	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU338	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema denticola
+OTU796	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	?	?
+OTU565	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU647	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. 3:G:BB003
+OTU355	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU537	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU635	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. oral clone BZ013
+OTU825	?	?	?	?	?	?	?
+OTU818	?	?	?	?	?	?	?
+OTU755	?	?	?	?	?	?	?
+OTU724	?	?	?	?	?	?	?
+OTU793	?	?	?	?	?	?	?
+OTU585	?	?	?	?	?	?	?
+OTU649	?	?	?	?	?	?	?
+OTU676	?	?	?	?	?	?	?
+OTU730	?	?	?	?	?	?	?
+OTU830	?	?	?	?	?	?	?
+OTU778	?	?	?	?	?	?	?
+OTU679	?	?	?	?	?	?	?
+OTU718	?	?	?	?	?	?	?
+OTU750	?	?	?	?	?	?	?
+OTU790	?	?	?	?	?	?	?
+OTU761	?	?	?	?	?	?	?
+OTU783	?	?	?	?	?	?	?
+OTU795	?	?	?	?	?	?	?
+OTU808	?	?	?	?	?	?	?
+OTU758	?	?	?	?	?	?	?
+OTU807	?	?	?	?	?	?	?
+OTU831	?	?	?	?	?	?	?
+OTU789	?	?	?	?	?	?	?
+OTU815	?	?	?	?	?	?	?
+OTU546	?	?	?	?	?	?	?
+OTU459	?	?	?	?	?	?	?
+OTU780	?	?	?	?	?	?	?
+OTU753	?	?	?	?	?	?	?
+OTU321	?	?	?	?	?	?	?
+OTU835	?	?	?	?	?	?	?
+OTU667	?	?	?	?	?	?	?
+OTU817	?	?	?	?	?	?	?
+OTU333	?	?	?	?	?	?	?
+OTU803	?	?	?	?	?	?	?
+OTU762	?	?	?	?	?	?	?
+OTU834	?	?	?	?	?	?	?
+OTU805	?	?	?	?	?	?	?
+OTU819	?	?	?	?	?	?	?
+OTU665	?	?	?	?	?	?	?
+OTU772	?	?	?	?	?	?	?
+OTU627	?	?	?	?	?	?	?
+OTU833	?	?	?	?	?	?	?
+OTU824	?	?	?	?	?	?	?
+OTU828	?	?	?	?	?	?	?
+OTU571	?	?	?	?	?	?	?
+OTU654	?	?	?	?	?	?	?
+OTU678	?	?	?	?	?	?	?
+OTU294	?	?	?	?	?	?	?
+OTU739	?	?	?	?	?	?	?
+OTU764	?	?	?	?	?	?	?
+OTU788	?	?	?	?	?	?	?
+OTU804	?	?	?	?	?	?	?
+OTU770	?	?	?	?	?	?	?
+OTU784	?	?	?	?	?	?	?
+OTU826	?	?	?	?	?	?	?
+OTU597	?	?	?	?	?	?	?
+OTU821	?	?	?	?	?	?	?
+OTU797	?	?	?	?	?	?	?
+OTU816	?	?	?	?	?	?	?
+OTU810	?	?	?	?	?	?	?
+OTU592	?	?	?	?	?	?	?
+OTU744	?	?	?	?	?	?	?
+OTU806	?	?	?	?	?	?	?
+OTU812	?	?	?	?	?	?	?
+OTU777	?	?	?	?	?	?	?
+OTU670	?	?	?	?	?	?	?
+OTU757	?	?	?	?	?	?	?
+OTU521	?	?	?	?	?	?	?
+OTU802	?	?	?	?	?	?	?
+OTU698	?	?	?	?	?	?	?
+OTU792	?	?	?	?	?	?	?
+OTU823	?	?	?	?	?	?	?
+OTU693	?	?	?	?	?	?	?
+OTU814	?	?	?	?	?	?	?
+OTU743	?	?	?	?	?	?	?
+OTU589	?	?	?	?	?	?	?
+OTU822	?	?	?	?	?	?	?
+OTU668	?	?	?	?	?	?	?
+OTU507	?	?	?	?	?	?	?
+OTU522	?	?	?	?	?	?	?
+OTU798	?	?	?	?	?	?	?
+OTU735	Bacteria	Desulfobacterota	Desulfovibrionia	Desulfovibrionales	Desulfomicrobiaceae	Desulfomicrobium	Desulfomicrobium orale
+OTU617	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Helicobacteraceae	Helicobacter	?
+OTU150	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	Campylobacter concisus
+OTU240	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Campylobacteraceae	Campylobacter	?
+OTU747	Bacteria	Campylobacterota	Campylobacteria	Campylobacterales	Helicobacteraceae	Wolinella	Wolinella succinogenes
+OTU450	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella uli
+OTU377	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Olsenella	Olsenella sp. oral taxon 807
+OTU741	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	DNF00809	Coriobacteriaceae bacterium
+OTU441	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Slackia	Slackia exigua
+OTU469	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Cryptobacterium	Cryptobacterium curtum
+OTU55	Bacteria	Actinobacteriota	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	?
+OTU581	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Brooklawnia	Brooklawnia cerclae
+OTU771	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium westphaliense
+OTU181	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium	?
+OTU593	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Pseudopropionibacterium	Propionibacterium sp.
+OTU392	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium acidifaciens
+OTU671	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionibacterium	Propionibacterium australiense
+OTU413	Bacteria	Actinobacteriota	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	Cutibacterium acnes
+OTU104	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	Rothia dentocariosa
+OTU248	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	?
+OTU658	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	F0332	Actinobaculum sp.
+OTU496	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	F0332	?
+OTU786	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	?	?
+OTU479	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	Bifidobacterium dentium
+OTU677	Bacteria	Actinobacteriota	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Alloscardovia	Alloscardovia omnicolens
+OTU599	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Mobiluncus	Mobiluncus curtisii
+OTU773	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces dentalis
+OTU791	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces massiliensis
+OTU520	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Schaalia cardiffensis
+OTU179	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	?
+OTU108	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Schaalia odontolytica
+OTU247	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces pacaensis
+OTU33	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	?
+OTU434	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Pauljensenia hongkongensis
+OTU292	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	?
+OTU748	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	uncultured Actinomyces sp.
+OTU86	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	?	?	?
+OTU337	Bacteria	Actinobacteriota	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	Actinomyces graevenitzii
+OTU503	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Cellulomonadaceae	Tropheryma	Tropheryma whipplei
+OTU18	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Microbacteriaceae	Microbacterium	?
+OTU594	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Microbacteriaceae	Microbacterium	?
+OTU42	Bacteria	Actinobacteriota	Actinobacteria	Streptomycetales	Streptomycetaceae	Streptomyces	?
+OTU96	Bacteria	Actinobacteriota	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Sphaerimonospora	Sphaerimonospora mesophila
+OTU4	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Mycobacteriaceae	Mycobacterium	Mycobacterium tuberculosis
+OTU578	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	?	?
+OTU334	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	?
+OTU549	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	?
+OTU274	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	Corynebacterium matruchotii
+OTU714	Bacteria	Actinobacteriota	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	?
+OTU113	Bacteria	Patescibacteria	Gracilibacteria	Absconditabacteriales (SR1)	?	?	?
+OTU220	Bacteria	Patescibacteria	Gracilibacteria	Absconditabacteriales (SR1)	?	?	?
+OTU298	Bacteria	Cyanobacteria	Cyanobacteriia	Chloroplast	?	?	?
+OTU657	Bacteria	Cyanobacteria	Cyanobacteriia	Chloroplast	?	?	?
+OTU264	Bacteria	Patescibacteria	Gracilibacteria	Gracilibacteria bacterium oral taxon 873	?	?	?
+OTU717	Bacteria	Patescibacteria	Gracilibacteria	JGI 0000069-P22	?	?	?
+OTU446	Bacteria	Firmicutes	Bacilli	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Metamycoplasma faucium
+OTU506	Bacteria	Firmicutes	Bacilli	Mycoplasmatales	Mycoplasmataceae	Mycoplasma	Metamycoplasma salivarium
+OTU43	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	TM7x	?
+OTU142	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	TM7 phylum
+OTU335	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	Candidatus Saccharimonas	?
+OTU105	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	?	?	?
+OTU431	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	uncultured Candidatus Saccharibacteria bacterium	?	?
+OTU482	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	?	?	?
+OTU290	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Saccharimonadaceae	uncultured Candidatus Saccharibacteria bacterium	?
+OTU127	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	Candidatus Saccharibacteria bacterium UB2523	?	?
+OTU570	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU239	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU490	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga ochracea
+OTU419	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	uncultured Capnocytophaga sp.
+OTU168	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga leadbetteri
+OTU525	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU574	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	?
+OTU230	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga gingivalis
+OTU435	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	Capnocytophaga sp. oral taxon 863 str. F0517
+OTU269	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	?
+OTU317	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	Flavobacteriaceae bacterium
+OTU373	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	?
+OTU631	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Rikenellaceae	Rikenellaceae RC9 gut group	?
+OTU497	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	F082	?	?
+OTU621	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	F082	uncultured Bacteroidetes bacterium	?
+OTU759	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	p-2534-18B5 gut group	?	?
+OTU732	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	?	?
+OTU32	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas pasteri
+OTU162	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	?
+OTU171	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	?
+OTU463	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	?
+OTU185	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	?
+OTU119	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas gingivalis
+OTU273	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU236	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU93	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU192	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU366	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU60	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	Alloprevotella rava
+OTU256	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU362	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU52	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU71	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	Prevotella sp.
+OTU731	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU749	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotellaceae UCG-004	Prevotella sp.
+OTU399	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella buccae
+OTU158	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella shahii
+OTU328	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU361	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU57	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella salivae
+OTU200	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU102	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU439	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella micans
+OTU164	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella oulorum
+OTU420	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella oulorum
+OTU262	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella baroniae
+OTU517	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU14	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella histicola
+OTU118	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU149	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU498	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU379	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU510	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU306	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella fusca
+OTU752	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU15	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella melaninogenica
+OTU203	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella scopos
+OTU139	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella denticola
+OTU407	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU587	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU356	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU470	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU386	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	uncultured Prevotella sp.
+OTU219	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella sp.
+OTU411	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella sp.
+OTU684	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU310	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	uncultured Prevotella sp.
+OTU584	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU107	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella oris
+OTU309	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella dentalis
+OTU630	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU324	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU72	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella pallens
+OTU234	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella intermedia
+OTU210	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella aurantiaca
+OTU92	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella intermedia
+OTU530	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU180	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU199	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU661	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	?	?
+OTU172	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella nanceiensis
+OTU390	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	?
+OTU756	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	?
+OTU354	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella multisaccharivorax
+OTU794	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella multisaccharivorax
+OTU414	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella sp.
+OTU683	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella genomosp.
+OTU576	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella marshii
+OTU527	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	Prevotella oralis
+OTU291	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella pleuritidis
+OTU473	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella_7	Prevotella enoeca
+OTU91	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Prevotellaceae	Alloprevotella	?
+OTU476	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	Prevotella heparinolytica
+OTU704	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	?
+OTU595	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Bacteroidales Incertae Sedis	Phocaeicola	Phocaeicola abscessus
+OTU813	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	?	?	?
+OTU232	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	?
+OTU358	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Tannerellaceae	Tannerella	Tannerella forsythia
+OTU600	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Marinifilaceae	Odoribacter	Bacteroidetes sp.
+OTU138	Bacteria	Bacteroidota	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	Porphyromonas endodontalis
+OTU596	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	Bacteroidales genomosp.
+OTU618	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	?	?
+OTU307	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	uncultured Bacteroidetes bacterium
+OTU612	Bacteria	Bacteroidota	Bacteroidia	Sphingobacteriales	Lentimicrobiaceae	Lentimicrobium	?
+OTU75	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Chitinophagaceae	Edaphobaculum	?
+OTU779	Bacteria	Firmicutes	Syntrophomonadia	Syntrophomonadales	Syntrophomonadaceae	Pelospora	Syntrophomonadaceae genomosp.
+OTU238	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Filifactor	Filifactor alocis
+OTU663	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	?	?
+OTU610	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Peptoanaerobacter	Peptoanaerobacter stomatis
+OTU664	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	[Eubacterium] yurii group	?
+OTU799	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	?	?
+OTU547	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Murdochiella	uncultured Peptostreptococcaceae bacterium
+OTU680	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU646	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	W5053	Peptostreptococcaceae bacterium
+OTU109	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	?
+OTU669	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Family XI	Parvimonas	?
+OTU485	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII UCG-001	Eubacterium sp.
+OTU493	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Family XIII AD3011 group	uncultured Eubacteriaceae bacterium
+OTU760	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	Eubacterium sp.
+OTU367	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU566	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU131	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	?
+OTU452	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] nodatum group	[Eubacterium] infirmum
+OTU300	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Mogibacterium	?
+OTU217	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] saphenum group	Eubacterium saphenum
+OTU710	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	Peptostreptococcaceae bacterium
+OTU384	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	?	?	?
+OTU408	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	Amnipila	?
+OTU343	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Anaerovoracaceae	[Eubacterium] brachy group	?
+OTU726	Bacteria	Firmicutes	Clostridia	Eubacteriales	Eubacteriaceae	Pseudoramibacter	?
+OTU136	Bacteria	Firmicutes	Clostridia	Peptostreptococcales-Tissierellales	Peptostreptococcaceae	Peptostreptococcus	Peptostreptococcus stomatis
+OTU740	Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	Flexilinea	Anaerolineaceae bacterium
+OTU68	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	uncultured Megasphaera sp.
+OTU359	Bacteria	Synergistota	Synergistia	Synergistales	Synergistaceae	Fretibacterium	?
+OTU696	Bacteria	Synergistota	Synergistia	Synergistales	Synergistaceae	Pyramidobacter	Pyramidobacter piscolens
+OTU371	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	Peptococcus-like sp.
+OTU552	Bacteria	Firmicutes	Clostridia	Peptococcales	Peptococcaceae	Peptococcus	?
+OTU145	Bacteria	Firmicutes	Bacilli	Paenibacillales	Paenibacillaceae	Paenibacillus	Paenibacillus pasadenensis
+OTU26	Bacteria	Firmicutes	Bacilli	Brevibacillales	Brevibacillaceae	Brevibacillus	?
+OTU63	Bacteria	Firmicutes	Bacilli	Brevibacillales	Brevibacillaceae	Brevibacillus	Brevibacillus agri
+OTU251	Bacteria	Firmicutes	Bacilli	Staphylococcales	Staphylococcaceae	Staphylococcus	Staphylococcus aureus
+OTU254	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Dolosigranulum	Dolosigranulum pigrum
+OTU314	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Limosilactobacillus	?
+OTU512	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lacticaseibacillus	?
+OTU738	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Weissella	?
+OTU504	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	?	?
+OTU271	Bacteria	Firmicutes	Clostridia	Lachnospirales	Lachnospiraceae	?	?
+OTU228	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU81	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU447	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus pyogenes
+OTU56	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	Streptococcus sanguinis
+OTU88	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU1	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU6	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU702	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU483	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU398	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	?	?
+OTU288	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU689	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU296	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	?
+OTU320	Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	?	?
+OTU437	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	Lactobacillus delbrueckii
+OTU542	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	?	?
+OTU375	Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Ligilactobacillus	Lactobacillus salivarius
+OTU76	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	Granulicatella elegans
+OTU207	Bacteria	Firmicutes	Bacilli	Lactobacillales	Aerococcaceae	Abiotrophia	Abiotrophia defectiva
+OTU36	Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	?
+OTU89	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	?
+OTU39	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	?
+OTU332	Bacteria	Firmicutes	Bacilli	Staphylococcales	Gemellaceae	Gemella	?
+OTU809	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU800	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU534	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU478	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas genomosp.
+OTU209	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas sputigena
+OTU297	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU327	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU387	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU193	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU382	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	?	?
+OTU423	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas massiliensis
+OTU412	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas noxia
+OTU628	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU229	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU281	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	Selenomonas infelix
+OTU177	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Selenomonadaceae	Selenomonas	?
+OTU30	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	Veillonella atypica
+OTU195	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU349	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	Veillonella rogosae
+OTU154	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU19	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	Veillonella tobetsuensis
+OTU141	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU513	Bacteria	Actinobacteriota	Actinobacteria	Micrococcales	Micrococcaceae	?	?
+OTU205	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Veillonella	?
+OTU509	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	?	?
+OTU782	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	?	?
+OTU344	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	?	?	?
+OTU656	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	?	?	?
+OTU686	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	?	?	?
+OTU326	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. I:Q:AT20
+OTU350	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU655	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU461	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU644	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU404	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema denticola
+OTU480	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema denticola
+OTU650	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema lecithinolyticum
+OTU582	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU558	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU357	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU626	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU660	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	Treponema sp. oral clone BZ013
+OTU425	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	uncultured Treponema sp.
+OTU765	Bacteria	Spirochaetota	Spirochaetia	Spirochaetales	Spirochaetaceae	Treponema	?
+OTU769	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Megasphaera	?
+OTU276	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	Dialister invisus
+OTU245	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	?	?
+OTU353	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	Dialister	Dialister pneumosintes
+OTU742	Bacteria	Firmicutes	Negativicutes	Veillonellales-Selenomonadales	Veillonellaceae	?	?
