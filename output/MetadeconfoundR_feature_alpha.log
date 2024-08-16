@@ -1,0 +1,11 @@
+INFO [2024-08-16 16:48:30] ###
+INFO [2024-08-16 16:48:30] ###
+INFO [2024-08-16 16:48:30] Deconfounding run started
+WARN [2024-08-16 16:48:30] Unallowed characters detected in rownames and/or colnames of featureMat and/or metaMat!
+
+              metadeconfoundR will try to remove these characters using the make.names() function.
+INFO [2024-08-16 16:48:30] Checking robustness of data for covariates
+INFO [2024-08-16 16:48:31] Computation of naive associations started.
+INFO [2024-08-16 16:48:35] NaiveAssociation -- processed 100% of features.
+INFO [2024-08-16 16:48:39] Deconfounding -- processed 100% of features.
+INFO [2024-08-16 16:48:39] MetadecondoundR run completed successfully!
