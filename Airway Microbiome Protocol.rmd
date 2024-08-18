@@ -443,7 +443,7 @@ permanova <- adonis2(vegdist(t(Genexpert_otu_df), method = "bray", na.rm = TRUE)
 permanova <- as.data.frame(permanova)
 
 # Save the data frame to a CSV file
-write.csv(permanova, file = "Result/Genexpert_permanova_results.csv", row.names = TRUE)
+write.csv(permanova, file = "Results/Genexpert_permanova_results.csv", row.names = TRUE)
 
 ggsave(filename = "Results/Figure 2A.jpg", 
        plot = beta_final, 
@@ -540,7 +540,7 @@ permanova <- adonis2(vegdist(t(MtbInfectionStatus_otu_df), method = "bray", na.r
 permanova <- as.data.frame(permanova)
 
 # Save the data frame to a CSV file
-write.csv(permanova, file = "Result/Mtb_infection status_permanova_results.csv", row.names = TRUE)
+write.csv(permanova, file = "Results/Mtb_infection status_permanova_results.csv", row.names = TRUE)
 
 ggsave(filename = "Results/Figure 2B.jpg", 
        plot = beta_final, 
@@ -1127,7 +1127,7 @@ combined_plot <- cowplot::plot_grid(bar_plot_1, bar_plot_2, labels = c("A", "B")
 print(combined_plot)
 
 # Save the combined plot as a high-resolution JPG file
-ggsave("Results/Figure 7A.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
+ggsave("Results/Figure 6A.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
 ```
 
 #####Genus
@@ -1337,7 +1337,7 @@ combined_plot <- cowplot::plot_grid(bar_plot_1, bar_plot_2, labels = c("A", "B")
 print(combined_plot)
 
 # Save the combined plot as a high-resolution JPG file
-ggsave("Results/Figure 7B.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
+ggsave("Results/Figure 6B.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
 ```
 
 ####Mtb Infection
@@ -1549,7 +1549,7 @@ combined_plot <- cowplot::plot_grid(bar_plot_1, bar_plot_2, labels = c("A", "B")
 print(combined_plot)
 
 # Save the combined plot as a high-resolution JPG file
-ggsave("Results/Figure 7C.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
+ggsave("Results/Figure 6C.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
 ```
 #####Genus
 ```{r}
@@ -1758,7 +1758,7 @@ combined_plot <- cowplot::plot_grid(bar_plot_1, bar_plot_2, labels = c("A", "B")
 print(combined_plot)
 
 # Save the combined plot as a high-resolution JPG file
-ggsave("Results/Figure 7D.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
+ggsave("Results/Figure 6D.jpg", plot = combined_plot, width = 12, height = 6, dpi = 600)  
 ```
 
 
@@ -1899,7 +1899,7 @@ print(plot_list)  # Print all plots stored in the list
 
 # Combine and save the plots
 combined_plot <- wrap_plots(plot_list, ncol = 3)
-ggsave(filename = "Results/Figure 8.jpg", plot = combined_plot, width = 15, height = 10, dpi = 600)
+ggsave(filename = "Results/Figure 7.jpg", plot = combined_plot, width = 15, height = 10, dpi = 600)
 
 ```
 ###Biomarker Identification
@@ -2418,8 +2418,9 @@ ggsave(filename = "Results/Figure 9A.jpg",
 Build random forest model
 ```{r}
 micro_rf_analysis <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
-                              ps = NULL, group = "Group", top_features = 20, perform_rfcv = FALSE, 
-                              rfcv_folds = 5, min_ylim = -1, max_ylim = 5) {
+                              ps = NULL, group = "Group", top_features = 20, 
+                              min_ylim = -1, max_ylim = 5) 
+  {
   
   # Preprocess the phyloseq object and scale the microbial data
   ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group) %>% ggClusterNet::scale_micro()
@@ -2450,19 +2451,6 @@ micro_rf_analysis <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
   accuracy_table <- ggpubr::ggtexttable(accuracy_rate_df, rows = NULL)
   confusion_table <- ggpubr::ggtexttable(confusion_matrix, rows = NULL)
   combined_tables <- accuracy_table / confusion_table
-  
-  
-  # Perform recursive feature elimination cross-validation (RFCV) if requested
-  if (perform_rfcv) {
-    rfcv_result <- Micro.rfcv(otu = NULL, tax = NULL, map = NULL, tree = NULL, ps = ps, group = "Group", 
-                              optimal = top_features, nrfcvnum = 6)
-    
-    rfcv_plot <- rfcv_result[[1]] # Plot of RFCV results
-    rfcv_table <- rfcv_result[[3]] # Table of RFCV results
-  } else {
-    rfcv_plot <- NULL
-    rfcv_table <- NULL
-  }
   
   # Identify the most important features (OTUs) based on the Random Forest model
   feature_importance <- as.data.frame(round(randomForest::importance(rf_model), 2))
@@ -2516,13 +2504,13 @@ micro_rf_analysis <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
     theme_void()
   
   # Return the generated plots, RFCV results, top features, and combined tables
-  return(list(importance_plot, polar_plot, rfcv_plot, rfcv_table, top_features_df, combined_tables))
+  return(list(importance_plot, polar_plot, top_features_df, combined_tables))
 }
 
 # Run the analysis with specified parameters
 result <- micro_rf_analysis(ps = MtbInfectionStatus_phyloseq,
                             group = "Group",
-                            top_features = 40, perform_rfcv = FALSE, rfcv_folds = 5,
+                            top_features = 40,
                             min_ylim = -1, max_ylim = 5)
 
 # Display the results
@@ -2538,7 +2526,7 @@ plot2 <- result[[2]]
 
 
 combined_plot <- cowplot::plot_grid(plot1, plot2, labels = c("A", "B"))
-
+print(combined_plot)
 # Save the first plot as a high-resolution image
 ggsave(filename = "Results/Figure 9B.jpg", 
        plot = combined_plot, 
