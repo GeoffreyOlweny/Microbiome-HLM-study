@@ -49,7 +49,7 @@ cran_packages <- c(
 )
 # List of Bioconductor packages
 bioc_packages <- c(
-  "metadeconfoundR", "DirichletMultinomial", "phyloseq", "DESeq2", "edgeR", "MicrobiotaProcess"
+  "metadeconfoundR", "DirichletMultinomial", "phyloseq", "edgeR", "MicrobiotaProcess"
 )
 
 # Function to check if a package is installed, and if not, install it
@@ -102,7 +102,6 @@ library(pgirmess)
 library(reshape) 
 library(dplyr) 
 library(tidyverse)
-library(DESeq2)
 library(rstatix)
 library(ggpubr)
 library(cowplot)
@@ -125,6 +124,8 @@ library(MicrobiotaProcess)
 library(gridExtra)
 library(fastDummies)  
 library(RColorBrewer) 
+
+sessionInfo()
 
 ```
 
@@ -709,60 +710,46 @@ ggsave("Results/Figure 3.jpg", plot = combined_plot, dpi = 600, width = 12, heig
 ```{r}
 alpha_features <- alpha_metrics_df_Group
 
-
-
 meta_alpha_decon <- Genexpert_metadata_df
 
-# Assign clusters to Dirichilet models
-Dirichlet_multinomial_1 <- mixture(dmn_list[[1]], assign = TRUE)
-Dirichlet_multinomial_2 <- mixture(dmn_list[[2]], assign = TRUE)
-Dirichlet_multinomial_3 <- mixture(dmn_list[[3]], assign = TRUE)
-Dirichlet_multinomial_4 <- mixture(dmn_list[[4]], assign = TRUE)
-Dirichlet_multinomial_5 <- mixture(dmn_list[[5]], assign = TRUE)
-Dirichlet_multinomial_6 <- mixture(dmn_list[[6]], assign = TRUE)
+# Fit Dirichlet Multinomial models with components ranging from 1 to all_dmns
+dmn_list <- lapply(1:all_dmns, function(k) dmn(as.matrix(t(genus_table)), k, verbose = FALSE))
 
-# Combine all clusters into one dataframe
-Dirichlet_multinomial_all <- data.frame(
-  cbind(Dirichlet_multinomial_1,
-        Dirichlet_multinomial_2,
-        Dirichlet_multinomial_3,
-        Dirichlet_multinomial_4,
-        Dirichlet_multinomial_5,
-        Dirichlet_multinomial_6)
-)
+# Determine the best model (based on Laplace)
+best_fit_index <- best_lplc_index  
+best_fit <- dmn_list[[best_fit_index]]
 
-# Assign column names corresponding to the number of components
-colnames(Dirichlet_multinomial_all) <- c(
-  "DMM_k=1", "DMM_k=2", "DMM_k=3", 
-  "DMM_k=4", "DMM_k=5", "DMM_k=6"
-)
+# Assign clusters for the best fit Dirichlet model
+cluster_result <- as.data.frame(mixture(best_fit, assign = TRUE))
+cluster_col_name <- paste0("Dirichlet_multinomial_k=", best_fit_index)
+colnames(cluster_result) <- cluster_col_name
 
-#K=4 had the best fitted Dirichilet component
-cluster_result <- as.data.frame(Dirichlet_multinomial_4)
+# Add the cluster results to meta_alpha_decon
 meta_alpha_decon <- cbind(meta_alpha_decon, cluster_result)
-meta_alpha_decon$Dirichlet_multinomial_4[meta_alpha_decon$Dirichlet_multinomial_4 == 1] <- "Type 1"
-meta_alpha_decon$Dirichlet_multinomial_4[meta_alpha_decon$Dirichlet_multinomial_4 == 2] <- "Type 2"
-meta_alpha_decon$Dirichlet_multinomial_4[meta_alpha_decon$Dirichlet_multinomial_4 == 3] <- "Type 3"
-meta_alpha_decon$Dirichlet_multinomial_4[meta_alpha_decon$Dirichlet_multinomial_4 == 4] <- "Type 4"
+
+# Update cluster labels to descriptive names
+cluster_levels <- unique(meta_alpha_decon[[cluster_col_name]])
+cluster_labels <- paste("Type", cluster_levels)
+meta_alpha_decon[[cluster_col_name]] <- factor(
+  meta_alpha_decon[[cluster_col_name]], 
+  levels = cluster_levels, 
+  labels = cluster_labels
+)
+
 # Add a new column 'smpl' with row names
 meta_alpha_decon$smpl <- row.names(meta_alpha_decon)
 
-# Create dummy columns for 'Dirichlet_multinomial_3'
-meta_alpha_decon <- fastDummies::dummy_cols(.data = meta_alpha_decon, select_columns = "Dirichlet_multinomial_4")
-# Set the row names of 'meta_alpha_decon' to the 'smpl' column
+# Create dummy columns for the selected cluster column
+meta_alpha_decon <- fastDummies::dummy_cols(.data = meta_alpha_decon, select_columns = cluster_col_name)
+
+# Set the row names of 'meta_alpha_decon' to the 'smpl' column and clean up
 row.names(meta_alpha_decon) <- meta_alpha_decon$smpl
-
-# Remove the 'smpl' column from 'meta_alpha_decon'
 meta_alpha_decon$smpl <- NULL
+meta_alpha_decon[[cluster_col_name]] <- NULL
 
-# Remove the 'Dirichlet_multinomial_3' column from 'meta_alpha_decon'
-meta_alpha_decon$Dirichlet_multinomial_4 <- NULL
-# Order the 'alpha_features' dataframe by row names
+# Order the dataframes by row names
 alpha_features <- alpha_features[order(rownames(alpha_features)), ]
-
-# Order the 'meta_alpha_decon' dataframe by row names
 meta_alpha_decon <- meta_alpha_decon[order(rownames(meta_alpha_decon)), ]
-
 # Recode the values in the Group column in both dataframes
 meta_alpha_decon$Group[meta_alpha_decon$Group == "Xpert-ve"] <- 0
 meta_alpha_decon$Group[meta_alpha_decon$Group == "Xpert+ve"] <- 1
@@ -795,106 +782,86 @@ ggsave("Results/Figure 4.jpg",alpha_metaDR1, width = 8, height =8,limitsize = FA
 ### beta diversity of the different DMM microbial community types/pulmotypes.
 
 ```{r}
-# Step 1: Create cluster results and combine with metadata
-# - Convert the Dirichlet_multinomial_4 results to a dataframe
-# - Combine the cluster results with the existing metadata
-cluster_result <- as.data.frame(Dirichlet_multinomial_4)
+# Create cluster results and combine with metadata
+
+# Add the cluster results to metadata_beta
 metadata_beta <- cbind(Group_metadata_beta, cluster_result)
-metadata_beta$Dirichlet_multinomial_4 <- as.character(metadata_beta$Dirichlet_multinomial_4)
+metadata_beta[[cluster_col_name]] <- as.character(metadata_beta[[cluster_col_name]])
 
-# Step 2: Calculate centroids for clusters
-# - Calculate the mean (centroid) of V1 and V2 for each cluster
-centroids <- aggregate(cbind(V1, V2) ~ Dirichlet_multinomial_4, metadata_beta, mean)
+# Calculate centroids for the clusters
+centroids <- aggregate(cbind(V1, V2) ~ ., data = metadata_beta, FUN = mean)
 
-# Step 3: Define custom colors for the plot
-# - Set specific colors for the different clusters
-ComCol <- c("chartreuse3", "deepskyblue2", "red3", "purple")
+# Define custom colors for the plot
+ComCol <- c("chartreuse3", "deepskyblue2", "red3", "purple","orange","violet")
 
-# Step 4: Create the main plot with points and ellipses
-# - Plot V1 vs. V2 with points colored by cluster
-# - Add ellipses and centroids to visualize cluster spread and center
+# Create the main plot with points and ellipses
 Bcluster <- metadata_beta %>%
-  ggplot(aes(x = V1, y = V2, color = Dirichlet_multinomial_4)) +  # Map data to axes and color
-  theme_classic() +  # Apply a classic theme for simplicity
-  scale_color_manual(values = ComCol) +  # Use custom colors for clusters
-  geom_point(aes(color = Dirichlet_multinomial_4), size = 5, alpha = 0.8) +  # Plot points
-  xlab("PCo 1") + ylab("PCo 2") +  # Label axes
-  labs(color = "Microbial Community types") +  # Set legend heading to "Community types"
-  theme(axis.title.x = element_text(size = 13),  # Adjust x-axis title size
-        axis.text.x = element_text(size = 13),  # Adjust x-axis text size
-        axis.text.y = element_text(size = 13),  # Adjust y-axis text size
-        axis.title.y = element_text(size = 13),  # Adjust y-axis title size
-        legend.position = "bottom") +  # Move legend to the bottom
-  stat_ellipse(aes(color = Dirichlet_multinomial_4)) +  # Add ellipses for clusters
-  geom_point(data = centroids, size = 5, shape = 16, color = "black") +  # Plot centroids
-  geom_point(data = centroids, size = 4, shape = 21, fill = "white")  # Add white fill to centroids
+  ggplot(aes(x = V1, y = V2, color = .data[[cluster_col_name]])) +
+  theme_classic() +
+  scale_color_manual(values = ComCol) +
+  geom_point(size = 5, alpha = 0.8) +
+  xlab("PCo 1") + ylab("PCo 2") +
+  labs(color = "Microbial Community types") +
+  theme(axis.title.x = element_text(size = 13),
+        axis.text.x = element_text(size = 13),
+        axis.text.y = element_text(size = 13),
+        axis.title.y = element_text(size = 13),
+        legend.position = "bottom") +
+  stat_ellipse() +
+  geom_point(data = centroids, size = 5, shape = 16, color = "black") +
+  geom_point(data = centroids, size = 4, shape = 21, fill = "white")
 
-# Step 5: Create the x-axis density plot
-# - Plot the density of V1, filled by cluster
+#Create the x-axis density plot
 xdensity <- metadata_beta %>%
-  ggplot(aes(x = V1)) +  # Set x-axis to V1
-  geom_density(alpha = .5, aes(fill = Dirichlet_multinomial_4, color = Dirichlet_multinomial_4)) +  # Density plot
-  scale_fill_manual(values = ComCol) +  # Apply custom fill colors
-  scale_color_manual(values = ComCol) +  # Apply custom outline colors
-  theme_classic() +  # Use a classic theme
-  theme(axis.title.x = element_blank(),  # Remove x-axis title
-        axis.text.x = element_blank(),  # Remove x-axis text
-        axis.ticks.x = element_blank(),  # Remove x-axis ticks
-        axis.line.x = element_blank(),  # Remove x-axis line
-        axis.text.y = element_blank(),  # Remove y-axis text
-        axis.ticks.y = element_blank(),  # Remove y-axis ticks
-        legend.position = "none")  # Hide the legend
+  ggplot(aes(x = V1, fill = .data[[cluster_col_name]], color = .data[[cluster_col_name]])) +
+  geom_density(alpha = .5) +
+  scale_fill_manual(values = ComCol) +
+  scale_color_manual(values = ComCol) +
+  theme_classic() +
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "none")
 
-# Step 6: Create the y-axis density plot with flipped coordinates
-# - Plot the density of V2, filled by cluster, with flipped axes
+#Create the y-axis density plot with flipped coordinates
 ydensity <- metadata_beta %>%
-  ggplot(aes(V2)) +  # Set x-axis to V2
-  geom_density(alpha = .5, aes(fill = Dirichlet_multinomial_4, color = Dirichlet_multinomial_4)) +  # Density plot
-  scale_fill_manual(values = ComCol) +  # Apply custom fill colors
-  scale_color_manual(values = ComCol) +  # Apply custom outline colors
-  theme_classic() +  # Use a classic theme
-  theme(axis.text.x = element_blank(),  # Remove x-axis text
-        axis.ticks.x = element_blank(),  # Remove x-axis ticks
-        axis.title.y = element_blank(),  # Remove y-axis title
-        axis.text.y = element_blank(),  # Remove y-axis text
-        axis.ticks.y = element_blank(),  # Remove y-axis ticks
-        axis.line.y = element_blank(),  # Remove y-axis line
-        legend.position = "none") +  # Hide the legend
-  coord_flip()  # Flip the coordinates
+  ggplot(aes(x = V2, fill = .data[[cluster_col_name]], color = .data[[cluster_col_name]])) +
+  geom_density(alpha = .5) +
+  scale_fill_manual(values = ComCol) +
+  scale_color_manual(values = ComCol) +
+  theme_classic() +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.line.y = element_blank(),
+        legend.position = "none") +
+  coord_flip()
 
-# Step 7: Create a blank plot for layout purposes
-# - This plot will be used as a spacer in the final layout
-blankPlot <- ggplot() +  
-  geom_blank(aes(1, 1)) +  # Create an empty plot
-  theme(plot.background = element_blank(),  # Remove plot background
-        panel.grid.major = element_blank(),  # Remove major grid lines
-        panel.grid.minor = element_blank(),  # Remove minor grid lines
-        panel.border = element_blank(),  # Remove panel border
-        panel.background = element_blank(),  # Remove panel background
-        axis.title.x = element_blank(),  # Remove x-axis title
-        axis.title.y = element_blank(),  # Remove y-axis title
-        axis.text.x = element_blank(),  # Remove x-axis text
-        axis.text.y = element_blank(),  # Remove y-axis text
-        axis.ticks = element_blank(),  # Remove axis ticks
-        axis.line = element_blank())  # Remove axis lines
+#Create a blank plot for layout purposes
+blankPlot <- ggplot() +
+  geom_blank(aes(1, 1)) +
+  theme_void()
 
-# Step 8: Combine the plots into a single grid layout with legends at the bottom
-# - Arrange the density plots, beta diversity plot, and blank plot in a grid
+#Combine the plots into a single grid layout
 Beta_diversity <- 
   cowplot::plot_grid(
-    xdensity + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),  # Add x-axis density plot with no margins
-    blankPlot + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),  # Add blank plot with no margins
-    Bcluster + theme(legend.position = "bottom",  # Ensure legend is at the bottom
-                     plot.margin = unit(c(0, 0, 0, 0), "cm")),  # Add beta diversity plot with no margins
-    ydensity + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),  # Add y-axis density plot with no margins
-    nrow = 2,  # Arrange plots in 2 rows
-    rel_widths = c(1, 0.5),  # Set relative widths for columns
-    rel_heights = c(0.5, 1),  # Set relative heights for rows
-    align = "hv"  # Align plots horizontally and vertically
+    xdensity + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),
+    blankPlot + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),
+    Bcluster + theme(legend.position = "bottom",
+                     plot.margin = unit(c(0, 0, 0, 0), "cm")),
+    ydensity + theme(plot.margin = unit(c(0, 0, 0, 0), "cm")),
+    nrow = 2,
+    rel_widths = c(1, 0.5),
+    rel_heights = c(0.5, 1),
+    align = "hv"
   )
 
-# Step 9: Display the final combined plot
-# - This is the final output combining all the components
+# Display the combined plot
 print(Beta_diversity)
 ggsave("Results/Figure 5.jpg",Beta_diversity, width = 8, height =8,limitsize = FALSE, dpi=600)
 
@@ -2415,115 +2382,199 @@ ggsave(filename = "Results/Figure 9A.jpg",
 
 ```
 
-Build random forest model
+###Build random forest model
 ```{r}
-micro_rf_analysis <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
-                              ps = NULL, group = "Group", top_features = 20, 
-                              min_ylim = -1, max_ylim = 5) 
-  {
-  
-  # Preprocess the phyloseq object and scale the microbial data
-  ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group) %>% ggClusterNet::scale_micro()
-  sample_data_df <- as.data.frame(phyloseq::sample_data(ps))
-  
-  # Prepare OTU table with scaled data
-  mapping_df <- as.data.frame(phyloseq::sample_data(ps))
-  otu_table <- as.data.frame((ggClusterNet::vegan_otu(ps)))
-  colnames(otu_table) <- paste("feature", colnames(otu_table), sep = "")
-  
-  # Set up classification by group and fit a Random Forest model
-  otu_table$group <- factor(mapping_df$Group)
-  rf_model <- randomForest::randomForest(group ~ ., data = otu_table, importance = TRUE, proximity = TRUE)
-  print(rf_model)
-  
-  # Extract and format the confusion matrix from the model
+# Function to estimate model accuracy and generate a confusion matrix table
+estimate_accuracy <- function(rf_model) {
+  # Extract confusion matrix from the Random Forest model
   confusion_matrix <- as.data.frame(rf_model$confusion)
+  
+  # Add a new column to calculate the class error
   confusion_matrix$class_error <- round(confusion_matrix$class.error, 3)
   confusion_matrix$Group <- row.names(confusion_matrix)
   
-  # Organize confusion matrix and compute model accuracy rate
+  # Reorder columns for better readability
   confusion_matrix <- dplyr::select(confusion_matrix, Group, everything())
+  
+  # Calculate the overall accuracy rate of the model
   accuracy_rate <- paste(round(100 - tail(rf_model$err.rate[, 1], 1) * 100, 2), "%", sep = "")
   accuracy_rate_df <- data.frame(ID = "Model Accuracy Rate", Accuracy_Rate = accuracy_rate)
   colnames(accuracy_rate_df) <- c("Random Forest", "Accuracy Rate")
   
-  # Create text tables for accuracy and confusion matrix, then combine them into one display
+  # Create tables for the accuracy rate and confusion matrix
   accuracy_table <- ggpubr::ggtexttable(accuracy_rate_df, rows = NULL)
   confusion_table <- ggpubr::ggtexttable(confusion_matrix, rows = NULL)
+  
+  # Combine both tables into one display
   combined_tables <- accuracy_table / confusion_table
   
-  # Identify the most important features (OTUs) based on the Random Forest model
+  # Return the combined tables
+  return(combined_tables)
+}
+# Function to extract top important features (bacterial markers) based on Random Forest model
+extract_top_features <- function(rf_model, ps, top_features = 20) {
+  # Extract feature importance metrics from the Random Forest model
   feature_importance <- as.data.frame(round(randomForest::importance(rf_model), 2))
+  
+  # Assign feature IDs for better readability
   feature_importance$feature_id <- row.names(feature_importance)
   row.names(feature_importance) <- gsub("feature", "", row.names(feature_importance))
   feature_importance$feature_id <- gsub("feature", "", feature_importance$feature_id)
   
-  # Order features by importance and select the top ones for further analysis
-  ordered_features <- dplyr::arrange(feature_importance, desc(MeanDecreaseAccuracy)) %>% as.data.frame()
-  row.names(ordered_features) <- ordered_features$feature_id
-  
+  # Order features by their importance (MeanDecreaseAccuracy) and select top features
+  ordered_features <- dplyr::arrange(feature_importance, desc(MeanDecreaseAccuracy))
   top_features_df <- head(ordered_features, n = top_features)
+  
+  # Extract taxonomy information corresponding to the top features
   taxonomy_df <- as.data.frame(ggClusterNet::vegan_tax(ps))
   relevant_taxonomy <- taxonomy_df[rownames(top_features_df), ]
   
-  # Merge the top features with their corresponding taxonomy information
+  # Merge top features with their corresponding taxonomy information
   top_features_df <- merge(top_features_df, relevant_taxonomy, by = "row.names", all = FALSE)
   row.names(top_features_df) <- top_features_df$Row.names
   top_features_df$Row.names <- NULL
   
-  otu_data <- ggClusterNet::vegan_otu(ps)
-  sample_design <- as.data.frame(phyloseq::sample_data(ps))
-  
-  # Calculate mean abundance of OTUs by group
-  group_split <- split(as.data.frame(otu_data), as.factor(sample_design$Group))
-  group_means <- lapply(group_split, function(x) colMeans(x, na.rm = TRUE))
-  mean_abundance <- do.call(rbind, group_means) %>% t()
-  colnames(mean_abundance) <- paste(colnames(mean_abundance), "mean", sep = "")
-  
-  # Combine the mean abundance data with the top features data
-  final_df <- merge(top_features_df, mean_abundance, by = "row.names", all = FALSE)
-  head(final_df)
-  
+  # Return the dataframe of top features along with their taxonomy
+  return(top_features_df)
+}
+# Function to plot the importance of features and create a polar bar plot
+plot_feature_importance <- function(top_features_df) {
   # Plot 1: Importance of features based on MeanDecreaseAccuracy from Random Forest
   importance_plot <- ggplot(top_features_df, aes(x = MeanDecreaseAccuracy, y = reorder(feature_id, MeanDecreaseAccuracy))) +
     geom_point(size = 6, pch = 21, fill = "#9ACD32", color = "#9ACD32") +
     geom_segment(aes(yend = feature_id), xend = 0, size = 3, color = "#9ACD32") +
     geom_label(aes(x = MeanDecreaseAccuracy * 1.1, label = Genus), size = 3)
   
-  # Plot 2: Polar bar plot of feature importance
-  top_features_df <- dplyr::arrange(top_features_df, desc(MeanDecreaseAccuracy))  
+  # Prepare data for the polar plot by arranging and indexing the top features
+  top_features_df <- dplyr::arrange(top_features_df, desc(MeanDecreaseAccuracy))
   top_features_df$index <- paste(1:length(top_features_df$feature_id))
   label_angle <- 90 - 360 * (as.numeric(top_features_df$index) - 0.5) / length(top_features_df$feature_id)
   top_features_df$feature_id <- factor(top_features_df$feature_id, levels = top_features_df$feature_id)
+  
+  # Plot 2: Polar bar plot of feature importance
   polar_plot <- top_features_df %>%
     ggplot(aes(x = factor(feature_id), y = MeanDecreaseAccuracy, label = Genus)) +
     geom_bar(stat = 'identity', position = 'dodge', fill = "blue") +
     geom_text(hjust = 0, angle = label_angle, alpha = 1) +
     coord_polar() +
-    ggtitle('') +
     theme_void()
   
-  # Return the generated plots, RFCV results, top features, and combined tables
-  return(list(importance_plot, polar_plot, top_features_df, combined_tables))
+  # Return the plots
+  return(list(importance_plot = importance_plot, polar_plot = polar_plot))
 }
+# Function to perform recursive feature elimination cross-validation (RFCV)
+run_recursive_feature_cv <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
+                                     ps = NULL, group = "Group", optimal_features = 20, num_folds = 5) {
+  
+  # Preprocess the phyloseq object and scale the microbial data
+  ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group)
+  
+  # Prepare the OTU table and sample metadata
+  otu_table <- as.data.frame(ggClusterNet::vegan_otu(ps))
+  sample_metadata <- as.data.frame(phyloseq::sample_data(ps))
 
-# Run the analysis with specified parameters
+  # Set classification labels and clean up column names
+  otu_table$group <- factor(sample_metadata$Group)
+  colnames(otu_table) <- gsub("-", "_", colnames(otu_table))
+  
+  # Define feature data by removing the group column
+  num_features <- ncol(otu_table) - 1
+  feature_data <- otu_table[1:num_features]
+  
+  # Initial RFCV with a set seed
+  set.seed(315)
+  rfcv_result <- rfcv(feature_data, otu_table$group, cv.fold = num_folds, scale = "log", step = 0.9)
+  
+  # Store initial cross-validation error data
+  error_cv_df <- data.frame(num_features = rfcv_result$n.var, error_rate_1 = rfcv_result$error.cv)
+  
+  # Repeat RFCV with different seeds to ensure stability
+  for (seed in 316:(315 + num_folds - 1)) {
+    set.seed(seed)
+    rfcv_result <- rfcv(feature_data, otu_table$group, cv.fold = num_folds, scale = "log", step = 0.9)
+    error_cv_df <- cbind(error_cv_df, rfcv_result$error.cv)
+  }
+  
+  # Calculate mean error across folds and prepare summary data
+  error_cv_df <- error_cv_df[, -1]
+  colnames(error_cv_df) <- paste('error_rate', 1:num_folds, sep = '_')
+  mean_error <- rowMeans(error_cv_df)
+  rfcv_summary <- data.frame(num_features = rfcv_result$n.var, mean_error = mean_error, error_cv_df)
+  
+  # Transform the data for plotting
+  plot_data <- tidyr::gather(rfcv_summary, key = "fold", value = "error_rate", -num_features)
+  
+  # Generate a plot showing the RFCV results
+  rfcv_plot <- ggplot() +
+    geom_line(data = plot_data, aes(x = num_features, y = error_rate, group = fold), colour = 'grey') +
+    geom_line(aes(x = rfcv_summary$num_features, y = rfcv_summary$mean_error), colour = 'black') +
+    coord_trans(x = "log2") +
+    scale_x_continuous(breaks = c(1, 2, 5, 10, 20, 30, 50, 100, 200)) +
+    labs(title = paste('Training set (n =', nrow(otu_table), ')', sep = ''),
+         x = 'Number of features', y = 'Cross-validation error rate') +
+    annotate("text", x = optimal_features, y = max(rfcv_summary$mean_error), 
+             label = paste("optimal = ", optimal_features, sep = ""))
+  
+  # Return the plot, plot data, and summary data
+  return(list(plot = rfcv_plot, plot_data = plot_data, summary_data = rfcv_summary))
+}
+# Main function to run the Random Forest analysis and generate reports and plots
+micro_rf_analysis <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
+                              ps = NULL, group = "Group", top_features = 20, perform_rfcv = FALSE, 
+                              rfcv_folds = 5, min_ylim = -1, max_ylim = 5) {
+  
+  # Preprocess the phyloseq object and scale the microbial data
+  ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group) %>% ggClusterNet::scale_micro()
+  sample_data_df <- as.data.frame(phyloseq::sample_data(ps))
+  
+  # Prepare OTU table with scaled data and set up Random Forest model
+  mapping_df <- as.data.frame(phyloseq::sample_data(ps))
+  otu_table <- as.data.frame((ggClusterNet::vegan_otu(ps)))
+  colnames(otu_table) <- paste("feature", colnames(otu_table), sep = "")
+  otu_table$group <- factor(mapping_df$Group)
+  
+  # Fit the Random Forest model
+  rf_model <- randomForest::randomForest(group ~ ., data = otu_table, importance = TRUE, proximity = TRUE)
+  print(rf_model)
+  
+  # Estimate the accuracy of the model and generate the confusion matrix
+  accuracy_table <- estimate_accuracy(rf_model)
+  
+  # Extract the top important features (bacterial markers)
+  top_features_df <- extract_top_features(rf_model, ps, top_features)
+  
+  # Generate plots for feature importance
+  plots <- plot_feature_importance(top_features_df)
+  
+  # Perform RFCV if requested
+  if (perform_rfcv) {
+    rfcv_result <- run_recursive_feature_cv(otu = NULL, tax = NULL, map = NULL, tree = NULL, 
+                                            ps = ps, group = group, optimal_features = top_features, 
+                                            num_folds = rfcv_folds)
+    rfcv_plot <- rfcv_result[[1]]
+    rfcv_table <- rfcv_result[[3]]
+  } else {
+    rfcv_plot <- NULL
+    rfcv_table <- NULL
+  }
+  
+  # Return the results: importance plot, polar plot, RFCV plot, RFCV table, top features, accuracy table
+  return(list(plots$importance_plot, plots$polar_plot, rfcv_plot, rfcv_table, top_features_df, accuracy_table))
+}
+# Run the Random Forest analysis with specified parameters
 result <- micro_rf_analysis(ps = MtbInfectionStatus_phyloseq,
                             group = "Group",
-                            top_features = 40,
+                            top_features = 40, perform_rfcv = TRUE, rfcv_folds = 5,
                             min_ylim = -1, max_ylim = 5)
 
-# Display the results
 result[[1]]
 result[[2]]
+result[[3]]
 
-
-
-# Access the plots
-plot1 <- result[[1]]
-plot2 <- result[[2]]
-
-
+# Access the generated plots and tables
+plot1 <- result[[1]]  # Importance plot
+plot2 <- result[[2]]  # Polar plot
+plot3 <- result[[3]]  # RFCV plot (if perform_rfcv = TRUE)
 
 combined_plot <- cowplot::plot_grid(plot1, plot2, labels = c("A", "B"))
 print(combined_plot)
@@ -2532,8 +2583,9 @@ ggsave(filename = "Results/Figure 9B.jpg",
        plot = combined_plot, 
        width = 10, height = 8, dpi = 600)
 
-
-
+ggsave(filename = "Results/Figure 9C.jpg", 
+       plot = plot3, 
+       width = 10, height = 8, dpi = 600)
 
 ```
 
