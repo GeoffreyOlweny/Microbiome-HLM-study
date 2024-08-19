@@ -1,5 +1,5 @@
-Microbiome BAL Study: Airway Microbiome Analysis Protocol for Characterizing a Novel TB Signature
-This repository contains the protocol and accompanying code for the Airway Microbiome Analysis aimed at characterizing a novel TB sigature.
+Microbiome HLM Study: Airway Microbiome Analysis Protocol for Characterizing a Novel TB Signature
+This repository contains the protocol and accompanying code for the Airway Microbiome Analysis to characterize a novel TB signature.
 
 The protocol involves:
 Data processing and quality control
@@ -13,7 +13,7 @@ Repository Structure
 data/: Directory containing raw and processed data.
 scripts/: Directory with R scripts for data processing, analysis, and visualization.
 results/: Directory where analysis outputs, such as plots and tables, are stored.
-README.md: This file, providing an overview of the repository.
+README.md: This file, provides an overview of the repository.
 
 License
 This repository is licensed under the MIT License. See the LICENSE file for more details.
