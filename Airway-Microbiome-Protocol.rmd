@@ -46,7 +46,7 @@ cran_packages <- c(
   "ggplot2", "pgirmess", "reshape", "dplyr", "tidyverse", "rstatix", 
   "ggpubr", "cowplot", "RColorBrewer", "fs", "vegan", "ggsignif", "ggtreeExtra", 
   "ggstar", "ggalluvial", "ggtree", "patchwork", "randomForest", 
-  "caret", "ROCR", "e1071", "gridExtra", "fastDummies", "here"
+  "caret", "ROCR", "e1071", "gridExtra", "fastDummies", "here", "pROC"
 )
 # List of Bioconductor packages
 bioc_packages <- c(
@@ -641,7 +641,7 @@ meta_alpha_out <- metadeconfoundR::MetaDeconfound(
   featureMat = alpha_features,
   metaMat = meta_alpha_decon,
   nnodes = 4,  # Number of nodes to use for parallel processing
-  logfile = here::here("output/", "MetadeconfoundR_feature_alpha.log")  # Path to the log file
+  logfile = here::here("MetadeconfoundR_feature_alpha.log")  # Path to the log file
 )
 #Heatmap
 alpha_metaDR <- metadeconfoundR::BuildHeatmap(
@@ -770,7 +770,6 @@ custom_theme <- ggplot2::theme_bw() +
     axis.title.y = ggplot2::element_text(colour = "black"),  # Set Y axis title color
     axis.text = ggplot2::element_text()  # Set axis text style
   )
-
 # Color palette for plots
 color_set <- c(RColorBrewer::brewer.pal(11, "Set1"), RColorBrewer::brewer.pal(9, "Pastel1"))
 # Assign the phyloseq object to a variable
@@ -1271,12 +1270,14 @@ for (i in 1:dim(contrast_combinations)[2]) {
     result_table$sig <- diff_test_result  # Add significance results
     row.names(count_matrix)[1:6]  # Print row names for checking
 
-    result_table <- cbind(result_table, padj = p.adjust(result_table$PValue, method = "fdr"))  # Adjust p-values
+    result_table <- cbind(result_table, padj =result_table$PValue)  # Adjust p-values
     enriched_taxa <- row.names(subset(result_table, sig == 1))  # Identify enriched taxa
     depleted_taxa <- row.names(subset(result_table, sig == -1))  # Identify depleted taxa
 
+   
     result_table$level <- as.factor(ifelse(as.vector(result_table$sig) == 1, "enriched", 
-                                           ifelse(as.vector(result_table$sig) == -1, "depleted", "nosig")))  # Define significance levels
+                                       ifelse(as.vector(result_table$sig) == -1, "depleted", 
+                                              ifelse(result_table$padj < 0.05, "unplot", "nosig"))))
     result_table <- data.frame(row.names = row.names(result_table), logFC = result_table$logFC, level = result_table$level, p = result_table$PValue)  # Prepare result table
 
     filtered_table <- result_table %>%
@@ -1296,7 +1297,7 @@ for (i in 1:dim(contrast_combinations)[2]) {
     # Store the top 5 enriched/depleted results in the list
     plot_list[[i]] <- ggplot(filtered_table, aes(x = logFC, y = -log2(p), color = level)) +
     geom_point(size = 3.5, alpha = 0.7, shape = 16) +  # Slightly larger point size with transparency
-    geom_hline(yintercept = -log2(0.01), linetype = "dashed", color = 'black', size = 0.9) +  # Thicker dashed line for p-value threshold
+    geom_hline(yintercept = -log2(p_value_threshold), linetype = "dashed", color = 'black', size = 0.9) +  # Thicker dashed line for p-value threshold
     geom_vline(xintercept = c(-1, 1), linetype = "dashed", color = 'black', size = 0.9) +  # Thicker dashed lines for logFC thresholds
     ggrepel::geom_text_repel(data = top_taxa, aes(x = logFC, y = -log2(p), label = Genus), 
                              size = 4, box.padding = 0.5, max.overlaps = Inf, 
@@ -1340,7 +1341,18 @@ ggsave(filename = "Results/Figure 7.jpg", plot = combined_plot, width = 15, heig
 ```{r, warning=FALSE, message=FALSE}
 # Load the saved phyloseq object from an RDS file
 ps <- MtbInfectionStatus_phyloseq
-mytheme1 <- custom_theme
+mytheme1 <- ggplot2::theme_bw() + 
+  ggplot2::theme(
+    panel.background = ggplot2::element_blank(),  # Remove background color
+    panel.grid = ggplot2::element_blank(),  # Remove grid lines
+    legend.position = "right",  # Position legend on the right
+    legend.title = ggplot2::element_blank(),  # Remove legend title
+    legend.background = ggplot2::element_blank(),  # Remove legend background
+    legend.key = ggplot2::element_blank(),  # Remove legend key background
+    plot.title = ggplot2::element_text(hjust = 0.5),  # Center plot title without vertical adjustment
+    axis.title.y = ggplot2::element_text(colour = "black"),  # Set Y axis title color
+    axis.text = ggplot2::element_text()  # Set axis text style
+  )
 
 # Function to generate a base plot from phyloseq data
 # Function to create a circular phylogenetic tree plot with a well-edited title
@@ -1650,7 +1662,7 @@ clade.anno_wt <- function(gtree, anno.data, alpha = 0.2, anno.depth = 5, anno.x 
 
 
 # Function to create a bar plot for LEfSe results, highlighting taxa with significant LDA scores
-lefse_bar = function(taxtree = tablda[[2]], title = "LEfSe Results Bar Plot") {
+lefse_bar = function(taxtree = tablda[[2]]) {
   taxtree = tablda[[2]]
   taxtree$ID = row.names(taxtree)
   
@@ -1667,7 +1679,7 @@ lefse_bar = function(taxtree = tablda[[2]], title = "LEfSe Results Bar Plot") {
   scale_fill_manual(values = unique(taxtree$color)) +
   mytheme1 +
   scale_x_continuous(limits = c(0, max(taxtree$LDAscore) * 1.2)) +
-  labs(title = "",  # Add title
+  labs(title = "LDA scores of significant taxa",  # Add title
        x = "LDA Score", # x-axis label
        y = "Taxa") +    # y-axis label
   theme(plot.title = element_text(size = 14, face = "bold", hjust = 0.5), # Adjust title size
@@ -1731,144 +1743,143 @@ ggsave(filename = "Results/Figure 8B.jpg",
 ```
 # **Machine Learning**
 ## **Compare machine learning models**
-```{r, warning=FALSE, message=FALSE}
-ps <- MtbInfectionStatus_phyloseq
+```{r, warning=FALSE, message=FALSE, error=TRUE}
 MicroRoc <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
-                     ps = NULL, group_var = "Group", repnum = 5) {
+                     ps = NULL, group_var = NULL, repnum = 5) {
   
   # Prepare the phyloseq object for analysis
   ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group_var)
   
   # Extract sample data and OTU table from the phyloseq object
   sample_mapping <- as.data.frame(phyloseq::sample_data(ps))
+  
+# Ensure the group_var is treated as a factor with explicit levels
+sample_mapping[[group_var]] <- factor(sample_mapping[[group_var]])
+
+# Convert the factor levels to numeric: 0 for the first level, 1 for the second
+sample_mapping[[group_var]] <- as.numeric(sample_mapping[[group_var]]) - 1
+
+# Check the conversion
+ table(sample_mapping[[group_var]])  # Should show counts of 0s and 1s
+
   otu_table <- as.data.frame(t(ggClusterNet::vegan_otu(ps)))
   colnames(otu_table) <- gsub("-", "_", colnames(otu_table)) 
   
   # Prepare the data for modeling
   data_for_modeling <- as.data.frame(t(otu_table))
-  data_for_modeling$group <- factor(sample_mapping[[group_var]])
-  colnames(data_for_modeling) <- paste("OTU", colnames(data_for_modeling), sep = "")
+  data_for_modeling$group <- factor(sample_mapping[[group_var]])  # Ensure group is a factor
+  colnames(data_for_modeling) <- paste(colnames(data_for_modeling), sep = "")
   
-  # Random Forest Model
-  data_for_modeling <- dplyr::select(data_for_modeling, OTUgroup, everything())
-  train_data <- data_for_modeling
-  folds <- createFolds(y = train_data[, 1], k = repnum)
-  auc_scores <- c()
-  
-  fold_classes_rf <- as.numeric()  # True class labels for Random Forest
-  fold_predictions_rf <- as.numeric()  # Model predictions for Random Forest
-  
-  for (i in 1:repnum) {
-    test_fold <- train_data[folds[[i]], ]
-    train_fold <- train_data[-folds[[i]], ]
-    
-    colnames(test_fold) <- gsub("-", "_", colnames(test_fold)) 
-    colnames(train_fold) <- gsub("-", "_", colnames(train_fold)) 
-    
-    rf_model <- randomForest(OTUgroup ~ ., data = train_fold, importance = TRUE, proximity = TRUE)
-    rf_predictions <- predict(rf_model, newdata = test_fold, type = "prob")
-    
-    fold_classes_rf <- append(fold_classes_rf, as.factor(test_fold$OTUgroup))
-    fold_predictions_rf <- append(fold_predictions_rf, rf_predictions[, 2])
-  }
-  
-  # Plotting ROC curve for Random Forest
-  rf_pred <- prediction(fold_predictions_rf, fold_classes_rf)  
-  rf_perf <- performance(rf_pred, "tpr", "fpr") 
-  rf_x <- unlist(rf_perf@x.values)  
-  rf_y <- unlist(rf_perf@y.values)
-  rf_plot_data <- data.frame(x = rf_x, y = rf_y)
-  
-  auc_scores[1] <- paste("RF AUC:", round(performance(rf_pred, 'auc')@y.values[[1]], 3), sep = " ")
-  
-  rf_plot <- ggplot(rf_plot_data) + 
-    geom_path(aes(x = x, y = y, colour = x), size = 1, color = "red") + 
-    labs(x = "False Positive Rate", y = "True Positive Rate") + 
-    annotate("text", x = 0.75, y = 0.5, label = paste("Red: ", auc_scores[1], sep = ""))
-  
-  # SVM Model
-  fold_classes_svm <- as.numeric()  # True class labels for SVM
-  fold_predictions_svm <- as.numeric()  # Model predictions for SVM
-  
-  for (i in 1:repnum) {
-    test_fold <- train_data[folds[[i]], ]
-    train_fold <- train_data[-folds[[i]], ]
-    
-    svm_model <- svm(OTUgroup ~ ., data = train_fold, probability = TRUE)
-    svm_predictions <- predict(svm_model, newdata = test_fold, decision.values = TRUE, probability = TRUE)
-    
-    fold_classes_svm <- append(fold_classes_svm, as.numeric(test_fold$OTUgroup))
-    fold_predictions_svm <- append(fold_predictions_svm, as.numeric(attr(svm_predictions, "probabilities")[, 2]))
-  }
-  
-  # Plotting ROC curve for SVM
-  svm_pred <- prediction(fold_predictions_svm, fold_classes_svm)  
-  svm_perf <- performance(svm_pred, "tpr", "fpr") 
-  svm_x <- unlist(svm_perf@x.values)  
-  svm_y <- unlist(svm_perf@y.values)
-  svm_plot_data <- data.frame(x = svm_x, y = svm_y)
-  
-  auc_scores[2] <- paste("SVM AUC:", round(performance(svm_pred, 'auc')@y.values[[1]], 3), sep = " ")
-  
-  svm_plot <- rf_plot + 
-    geom_path(data = svm_plot_data, aes(x = x, y = y, colour = x), size = 1, color = "blue") + 
-    annotate("text", x = 0.75, y = 0.4, label = paste("Blue: ", auc_scores[2], sep = ""))
-  
-  # GLM Model
-  fold_classes_glm <- as.numeric()  # True class labels for GLM
-  fold_predictions_glm <- as.numeric()  # Model predictions for GLM
-  
-  for (i in 1:repnum) {
-    test_fold <- train_data[folds[[i]], ]
-    train_fold <- train_data[-folds[[i]], ]
-    
-    glm_model <- glm(OTUgroup ~ ., family = 'binomial', data = train_fold)
-    glm_predictions <- predict(glm_model, type = 'response', newdata = test_fold)
-    
-    fold_classes_glm <- append(fold_classes_glm, test_fold$OTUgroup)
-    fold_predictions_glm <- append(fold_predictions_glm, as.numeric(glm_predictions))
-  }
-  
-  # Plotting ROC curve for GLM
-  glm_pred <- prediction(fold_predictions_glm, fold_classes_glm)  
-  glm_perf <- performance(glm_pred, "tpr", "fpr") 
-  glm_x <- unlist(glm_perf@x.values)  
-  glm_y <- unlist(glm_perf@y.values)
-  glm_plot_data <- data.frame(x = glm_x, y = glm_y)
-  
-  auc_scores[3] <- paste("GLM AUC:", round(performance(glm_pred, 'auc')@y.values[[1]], 3), sep = " ")
-  
-  glm_plot <- svm_plot + 
-  geom_path(data = glm_plot_data, aes(x = x, y = y, colour = x), size = 1, color = "black") + 
-  labs(
-    x = "False Positive Rate", 
-    y = "True Positive Rate", 
-    title = "Performance of RF, SVM, and GLM Machine Learning Methods"
-  ) +
-  annotate("text", x = 0.75, y = 0.3, label = paste("Black: ", auc_scores[3], sep = ""))
+  # Random Forest, SVM, and GLM models
+  models <- c("RF", "SVM", "GLM")
+  auc_scores <- list()
+  roc_data <- list()
+  set.seed(100)  # Use the same seed value for reproducibility
 
-  # Return the results
-  return(list(roc_plot = glm_plot, auc_scores = auc_scores))
+  for (model in models) {
+    auc_values <- numeric(repnum)  # Store AUC for each fold
+    tpr_fpr_list <- list()  # Store TPR and FPR for each fold
+    
+    folds <- createFolds(y = data_for_modeling$group, k = repnum)
+    
+    for (i in 1:repnum) {
+      test_fold <- data_for_modeling[folds[[i]], ]
+      train_fold <- data_for_modeling[-folds[[i]], ]
+      
+      if (model == "RF") {
+        rf_model <- randomForest(group ~ ., data = train_fold, importance = TRUE)
+        rf_predictions <- predict(rf_model, newdata = test_fold, type = "prob")[, 2]
+
+        roc_result <- roc(test_fold$group, rf_predictions)
+        auc_values[i] <- auc(roc_result)
+        tpr_fpr_list[[i]] <- data.frame(tpr = roc_result$sensitivities, fpr = 1 - roc_result$specificities)
+        
+      } else if (model == "SVM") {
+        svm_model <- svm(group ~ ., data = train_fold, probability = TRUE)
+        svm_predictions <- attr(predict(svm_model, test_fold, probability = TRUE), "probabilities")[, 2]
+
+        roc_result <- roc(test_fold$group, svm_predictions)
+        auc_values[i] <- auc(roc_result)
+        tpr_fpr_list[[i]] <- data.frame(tpr = roc_result$sensitivities, fpr = 1 - roc_result$specificities)
+        
+      } else if (model == "GLM") {
+        glm_model <- glm(group ~ ., family = binomial, data = train_fold)
+        glm_predictions <- predict(glm_model, test_fold, type = "response")
+
+        roc_result <- roc(test_fold$group, glm_predictions)
+        auc_values[i] <- auc(roc_result)
+        tpr_fpr_list[[i]] <- data.frame(tpr = roc_result$sensitivities, fpr = 1 - roc_result$specificities)
+      }
+    }
+    
+    # Calculate mean AUC and 95% CI for the model
+    mean_auc <- mean(auc_values)
+    auc_ci <- quantile(auc_values, probs = c(0.025, 0.975))  # 95% CI using quantiles
+    
+    # Combine TPR/FPR data across folds and calculate mean TPR at each FPR
+    combined_roc_data <- bind_rows(tpr_fpr_list)
+    mean_roc <- combined_roc_data %>%
+      group_by(fpr) %>%
+      summarise(mean_tpr = mean(tpr, na.rm = TRUE), 
+                lower_ci = quantile(tpr, 0.025, na.rm = TRUE),
+                upper_ci = quantile(tpr, 0.975, na.rm = TRUE))
+    
+    # Store AUC results and ROC curve data
+    auc_scores[[model]] <- list(mean = mean_auc, ci = auc_ci)
+    roc_data[[model]] <- mean_roc
+  }
+  
+# Function to create individual ROC plots with CI 
+plot_roc <- function(roc_data, auc, model_name, color) {
+  ggplot(roc_data, aes(x = fpr)) +
+    # Shaded region representing the 95% confidence interval
+    geom_ribbon(aes(ymin = lower_ci, ymax = upper_ci), fill = color, alpha = 0.2) +
+    # Mean ROC curve line
+    geom_line(aes(y = mean_tpr), color = color, size = 1) +
+    # Labels and title
+    labs(x = "False Positive Rate", 
+         y = "True Positive Rate", 
+         title = sprintf("Performance of the %s Machine Learning Model", model_name)) +
+    # AUC text annotation
+    annotate("text", x = 0.75, y = 0.25, label = sprintf("AUC: %.3f (95%% CI: %.3f - %.3f)", 
+                                                        auc$mean, auc$ci[1], auc$ci[2]), color = color) +
+    # Improved minimal theme for better aesthetics
+    theme_minimal(base_size = 14) +
+    # Ensure that grid lines and axis labels are clear
+    theme(
+      plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+      axis.title = element_text(size = 14),
+      axis.text = element_text(size = 12),
+      panel.grid.minor = element_blank()
+    )
+}
+
+# Example of how this is used:
+# Create separate plots for RF, SVM, and GLM
+rf_plot <- plot_roc(roc_data$RF, auc_scores$RF, "Random Forest", "red")
+svm_plot <- plot_roc(roc_data$SVM, auc_scores$SVM, "SVM", "blue")
+glm_plot <- plot_roc(roc_data$GLM, auc_scores$GLM, "GLM", "black")
+
+# Save each plot individually with high quality
+ggsave(filename = "Results/Figure 9A.jpg", plot = rf_plot, width = 8, height = 6, dpi = 600)
+ggsave(filename = "Results/Figure 9B.jpg", plot = svm_plot, width = 8, height = 6, dpi = 600)
+ggsave(filename = "Results/Figure 9C.jpg", plot = glm_plot, width = 8, height = 6, dpi = 600)
+
+return(list(rf_plot = rf_plot, svm_plot = svm_plot, glm_plot = glm_plot, auc_scores = auc_scores))
+
 }
 
 # Example usage
 result <- MicroRoc(ps = Genexpert_phyloseq, group_var = "Group")
-print(result$roc_plot)
+print(result$rf_plot)
+print(result$svm_plot)
+print(result$glm_plot)
 print(result$auc_scores)
-
-
-# Access the ROC plot
-roc_plot <- result$roc_plot
-
-# Save the ROC plot as a high-resolution image
-ggsave(filename = "Results/Figure 9A.jpg", 
-       plot = roc_plot, 
-       width = 10, height = 8, dpi = 600)
 
 ```
 
 ## **Random Forest model**
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE, error=TRUE}
 # Function to estimate model accuracy and generate a confusion matrix table
 estimate_accuracy <- function(rf_model) {
   # Extract confusion matrix from the Random Forest model
@@ -2005,20 +2016,26 @@ run_recursive_feature_cv <- function(otu = NULL, tax = NULL, map = NULL, tree = 
   # Transform the data for plotting
   plot_data <- tidyr::gather(rfcv_summary, key = "metric", value = "value", -num_features)
   
-  # Generate a plot showing the RFCV results with error bars
-  rfcv_plot <- ggplot() +
-    geom_line(data = plot_data, aes(x = num_features, y = value, group = metric, color = metric), linetype = "dashed") +
-    geom_ribbon(aes(x = rfcv_summary$num_features, ymin = rfcv_summary$ci_low, ymax = rfcv_summary$ci_high), fill = "blue", alpha = 0.2) +
-    geom_line(aes(x = rfcv_summary$num_features, y = rfcv_summary$mean_error), colour = 'black') +
-    coord_trans(x = "log2") +
-    scale_x_continuous(breaks = c(1, 2, 5, 10, 20, 30, 50, 100, 200)) +
-    labs(title = paste('Training set (n =', nrow(otu_table), ')', sep = ''),
-         x = 'Number of features', y = 'Cross-validation error rate') +
-    annotate("text", x = optimal_features, y = max(rfcv_summary$mean_error), 
-             label = paste("optimal = ", optimal_features, sep = ""))
-  
-  # Return the plot and summary data
-  return(list(plot = rfcv_plot, summary_data = rfcv_summary))
+ # Generate a plot showing the RFCV results with error bars
+rfcv_plot <- ggplot() +
+  geom_line(data = plot_data, aes(x = num_features, y = value, group = metric, color = metric), linetype = "dashed") +
+  geom_ribbon(aes(x = rfcv_summary$num_features, ymin = rfcv_summary$ci_low, ymax = rfcv_summary$ci_high), fill = "blue", alpha = 0.2) +
+  geom_line(aes(x = rfcv_summary$num_features, y = rfcv_summary$mean_error), colour = 'black') +
+  coord_trans(x = "log2") +
+  scale_x_continuous(breaks = c(1, 2, 5, 10, 20, 30, 50, 100, 200)) +
+  labs(title = paste('Cross validation Training set (n =', nrow(otu_table), ')', sep = ''),
+       x = 'Number of features', 
+       y = 'Cross-validation error rate') +
+  theme(
+    plot.title = element_text(size = 16, face = "bold", hjust = 0.5),  # Customize title size and position
+    axis.title.x = element_text(size = 14),  # Customize x-axis title size
+    axis.title.y = element_text(size = 14)   # Customize y-axis title size
+  ) +
+  annotate("text", x = optimal_features, y = max(rfcv_summary$mean_error), 
+           label = paste("optimal = ", optimal_features, sep = ""))
+
+# Return the plot and summary data
+return(list(plot = rfcv_plot, summary_data = rfcv_summary))
 }
 
 # Main function to run the Random Forest analysis and generate reports and plots
@@ -2088,8 +2105,8 @@ print(combined_plot)
 
 
 # Save the plots as high-resolution images
-ggsave(filename = "Results/Figure 9B.jpg", plot = combined_plot, width = 10, height = 8, dpi = 600)
-ggsave(filename = "Results/Figure 9C.jpg", plot = plot3, width = 10, height = 8, dpi = 600)
+ggsave(filename = "Results/Figure 9D.jpg", plot = combined_plot, width = 10, height = 8, dpi = 600)
+ggsave(filename = "Results/Figure 9E.jpg", plot = plot3, width = 10, height = 8, dpi = 600)
 
 ```
 
