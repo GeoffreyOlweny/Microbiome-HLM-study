@@ -1853,22 +1853,16 @@ plot_roc <- function(roc_data, auc, model_name, color) {
       panel.grid.minor = element_blank()
     )
 }
-
 # Example of how this is used:
 # Create separate plots for RF, SVM, and GLM
 rf_plot <- plot_roc(roc_data$RF, auc_scores$RF, "Random Forest", "red")
 svm_plot <- plot_roc(roc_data$SVM, auc_scores$SVM, "SVM", "blue")
 glm_plot <- plot_roc(roc_data$GLM, auc_scores$GLM, "GLM", "black")
 
-# Save each plot individually with high quality
-ggsave(filename = "Results/Figure 9A.jpg", plot = rf_plot, width = 8, height = 6, dpi = 600)
-ggsave(filename = "Results/Figure 9B.jpg", plot = svm_plot, width = 8, height = 6, dpi = 600)
-ggsave(filename = "Results/Figure 9C.jpg", plot = glm_plot, width = 8, height = 6, dpi = 600)
 
 return(list(rf_plot = rf_plot, svm_plot = svm_plot, glm_plot = glm_plot, auc_scores = auc_scores))
 
 }
-
 # Example usage
 result <- MicroRoc(ps = Genexpert_phyloseq, group_var = "Group")
 print(result$rf_plot)
@@ -1877,9 +1871,121 @@ print(result$glm_plot)
 print(result$auc_scores)
 
 ```
-
-## **Random Forest model**
 ```{r, warning=FALSE, message=FALSE, error=TRUE}
+MicroRoc <- function(otu = NULL, tax = NULL, map = NULL, tree = NULL,
+                     ps = NULL, group_var = NULL, repnum = 5) {
+  
+  # Prepare the phyloseq object for analysis
+  ps <- ggClusterNet::inputMicro(otu, tax, map, tree, ps, group = group_var)
+  
+  # Extract sample data and OTU table from the phyloseq object
+  sample_mapping <- as.data.frame(phyloseq::sample_data(ps))
+  
+  # Ensure the group_var is treated as a factor with explicit levels
+  sample_mapping[[group_var]] <- factor(sample_mapping[[group_var]])
+  
+  # Convert the factor levels to numeric: 0 for the first level, 1 for the second
+  sample_mapping[[group_var]] <- as.numeric(sample_mapping[[group_var]]) - 1
+  
+  # Check the conversion
+  table(sample_mapping[[group_var]])  # Should show counts of 0s and 1s
+  
+  otu_table <- as.data.frame(t(ggClusterNet::vegan_otu(ps)))
+  colnames(otu_table) <- gsub("-", "_", colnames(otu_table)) 
+  
+  # Prepare the data for modeling
+  data_for_modeling <- as.data.frame(t(otu_table))
+  data_for_modeling$group <- factor(sample_mapping[[group_var]])  # Ensure group is a factor
+  
+  # Models to evaluate
+  models <- c("RF", "SVM", "GLM")
+  auc_scores <- list()
+  roc_data <- list()
+  
+  # Define a common FPR grid
+  common_fpr <- seq(0, 1, length.out = 100)
+  
+  set.seed(100)  # Use the same seed value for reproducibility
+  
+  for (model in models) {
+    auc_values <- numeric(repnum)  # Store AUC for each fold
+    tpr_list <- matrix(NA, nrow = length(common_fpr), ncol = repnum)  # Store interpolated TPR values
+    
+    folds <- createFolds(y = data_for_modeling$group, k = repnum)
+    
+    for (i in 1:repnum) {
+      test_fold <- data_for_modeling[folds[[i]], ]
+      train_fold <- data_for_modeling[-folds[[i]], ]
+      
+      if (model == "RF") {
+        model_fit <- randomForest(group ~ ., data = train_fold, importance = TRUE)
+        predictions <- predict(model_fit, newdata = test_fold, type = "prob")[, 2]
+        
+      } else if (model == "SVM") {
+        model_fit <- svm(group ~ ., data = train_fold, probability = TRUE)
+        predictions <- attr(predict(model_fit, test_fold, probability = TRUE), "probabilities")[, 2]
+        
+      } else if (model == "GLM") {
+        model_fit <- glm(group ~ ., family = binomial, data = train_fold)
+        predictions <- predict(model_fit, test_fold, type = "response")
+      }
+      
+      # Compute ROC and interpolate TPR at common FPR
+      # Ensure test_fold$group is numeric
+roc_result <- roc(as.numeric(as.character(test_fold$group)), predictions)
+      interpolated_tpr <- approx(x = roc_result$specificities, 
+                                 y = roc_result$sensitivities, 
+                                 xout = common_fpr, 
+                                 method = "linear", 
+                                 ties = "ordered")$y
+      tpr_list[, i] <- interpolated_tpr
+      auc_values[i] <- auc(roc_result)
+    }
+    
+    # Calculate mean and CI for TPR at each FPR
+    mean_tpr <- rowMeans(tpr_list, na.rm = TRUE)
+    lower_ci <- apply(tpr_list, 1, quantile, probs = 0.025, na.rm = TRUE)
+    upper_ci <- apply(tpr_list, 1, quantile, probs = 0.975, na.rm = TRUE)
+    
+    # Store AUC results and ROC curve data
+    auc_scores[[model]] <- list(mean = mean(auc_values), ci = quantile(auc_values, c(0.025, 0.975)))
+    roc_data[[model]] <- data.frame(fpr = common_fpr, mean_tpr = mean_tpr, lower_ci = lower_ci, upper_ci = upper_ci)
+  }
+  
+  # Function to create individual ROC plots with CI 
+  plot_roc <- function(roc_data, auc, model_name, color) {
+    ggplot(roc_data, aes(x = fpr)) +
+      geom_ribbon(aes(ymin = lower_ci, ymax = upper_ci), fill = color, alpha = 0.2) +
+      geom_line(aes(y = mean_tpr), color = color, size = 1) +
+      labs(x = "False Positive Rate", 
+           y = "True Positive Rate", 
+           title = sprintf("Performance of the %s Model", model_name)) +
+      annotate("text", x = 0.75, y = 0.25, 
+               label = sprintf("AUC: %.3f (95%% CI: %.3f - %.3f)", auc$mean, auc$ci[1], auc$ci[2]), color = color) +
+      theme_minimal(base_size = 14)
+  }
+  
+  # Create plots for RF, SVM, and GLM
+  rf_plot <- plot_roc(roc_data$RF, auc_scores$RF, "Random Forest", "red")
+  svm_plot <- plot_roc(roc_data$SVM, auc_scores$SVM, "SVM", "blue")
+  glm_plot <- plot_roc(roc_data$GLM, auc_scores$GLM, "GLM", "black")
+  
+  # Save each plot
+  ggsave(filename = "Results/Figure 9A.jpg", plot = rf_plot, width = 8, height = 6, dpi = 600)
+  ggsave(filename = "Results/Figure 9B.jpg", plot = svm_plot, width = 8, height = 6, dpi = 600)
+  ggsave(filename = "Results/Figure 9C.jpg", plot = glm_plot, width = 8, height = 6, dpi = 600)
+  
+  return(list(rf_plot = rf_plot, svm_plot = svm_plot, glm_plot = glm_plot, auc_scores = auc_scores))
+}
+# Example usage
+result <- MicroRoc(ps = Genexpert_phyloseq, group_var = "Group")
+print(result$rf_plot)
+print(result$svm_plot)
+print(result$glm_plot)
+print(result$auc_scores)
+```
+## **Random Forest model**
+```{r, warning=FALSE, message=FALSE}
 # Function to estimate model accuracy and generate a confusion matrix table
 estimate_accuracy <- function(rf_model) {
   # Extract confusion matrix from the Random Forest model
