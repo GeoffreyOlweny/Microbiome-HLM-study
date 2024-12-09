@@ -259,3 +259,36 @@ INFO [2024-11-18 12:36:43] Computation of naive associations started.
 INFO [2024-11-18 12:36:56] NaiveAssociation -- processed 100% of features.
 INFO [2024-11-18 12:37:10] Deconfounding -- processed 100% of features.
 INFO [2024-11-18 12:37:10] MetadecondoundR run completed successfully!
+INFO [2024-12-09 12:26:41] ###
+INFO [2024-12-09 12:26:41] ###
+INFO [2024-12-09 12:26:41] Deconfounding run started
+WARN [2024-12-09 12:26:41] Unallowed characters detected in rownames and/or colnames of featureMat and/or metaMat!
+
+              metadeconfoundR will try to remove these characters using the make.names() function.
+INFO [2024-12-09 12:26:41] Checking robustness of data for covariates
+INFO [2024-12-09 12:26:41] Computation of naive associations started.
+INFO [2024-12-09 12:26:51] NaiveAssociation -- processed 100% of features.
+INFO [2024-12-09 12:27:01] Deconfounding -- processed 100% of features.
+INFO [2024-12-09 12:27:01] MetadecondoundR run completed successfully!
+INFO [2024-12-09 13:45:17] ###
+INFO [2024-12-09 13:45:17] ###
+INFO [2024-12-09 13:45:17] Deconfounding run started
+WARN [2024-12-09 13:45:17] Unallowed characters detected in rownames and/or colnames of featureMat and/or metaMat!
+
+              metadeconfoundR will try to remove these characters using the make.names() function.
+INFO [2024-12-09 13:45:17] Checking robustness of data for covariates
+INFO [2024-12-09 13:45:17] Computation of naive associations started.
+INFO [2024-12-09 13:45:24] NaiveAssociation -- processed 100% of features.
+INFO [2024-12-09 13:45:28] Deconfounding -- processed 100% of features.
+INFO [2024-12-09 13:45:28] MetadecondoundR run completed successfully!
+INFO [2024-12-09 14:44:56] ###
+INFO [2024-12-09 14:44:56] ###
+INFO [2024-12-09 14:44:56] Deconfounding run started
+WARN [2024-12-09 14:44:56] Unallowed characters detected in rownames and/or colnames of featureMat and/or metaMat!
+
+              metadeconfoundR will try to remove these characters using the make.names() function.
+INFO [2024-12-09 14:44:56] Checking robustness of data for covariates
+INFO [2024-12-09 14:44:56] Computation of naive associations started.
+INFO [2024-12-09 14:45:09] NaiveAssociation -- processed 100% of features.
+INFO [2024-12-09 14:45:12] Deconfounding -- processed 100% of features.
+INFO [2024-12-09 14:45:12] MetadecondoundR run completed successfully!
